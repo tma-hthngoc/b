@@ -1,0 +1,14 @@
+<% if @risk_summary %>
+<div class="risk_summary">
+  <div>
+  <%= link_to "Risk Summary", @risk_summary.riskfile.url %>
+  </div>
+  <% if power_user? %>
+    <div>
+      <%= link_to 'Edit', edit_risk_summary_path(@risk_summary) %>
+      <%= link_to 'Destroy', @risk_summary, method: :delete, data: { confirm: 'Are you sure?' } %>
+    </div>
+  <% end %>
+</div>
+<% end %>
+

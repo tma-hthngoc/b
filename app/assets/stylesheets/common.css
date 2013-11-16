@@ -1,0 +1,405 @@
+body {
+    font: 62.5%  helvetica, arial, verdana, sans-serif !important;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+}
+
+@media screen {
+    html {
+        color: #FFFFFF;
+    }
+
+    body#interior {
+        background-color: #f0f0f0;
+        color: #000;
+    }
+
+    #site {
+        margin: 0 auto;
+        min-width: 800px;
+        padding: 20px;
+    }
+
+    #print-logo {
+        visibility:hidden;
+        display:none;
+    }
+
+    #header {
+        background: url("banner.jpg") repeat-x;
+        height: 60px;
+        margin-bottom: 50px;
+        min-width: 800px;
+        text-align: right;
+    }
+
+    #siteLogo img {
+        margin-left: 1%;
+        margin-top: 14px;
+        float: left;
+    }
+
+    #epm-link img {
+       vertical-align: top;
+       margin-top: 8px;
+    }
+
+    #innovate {
+        border: 0 none !important;
+        display: block;
+        position: absolute;
+        top: 9px;
+        left: 267px;
+    }
+    #innovate img {
+        height:50px;
+    }
+
+    a {
+        border-bottom: 0 none;
+        color: #5DB0E6;
+    }
+
+    div.pdf-link {
+        border: 0 none !important;
+        float:right;
+    }
+
+    .pdf-link img {
+        width: 35px;
+        height: 35px;
+    }
+
+    #nav {
+        width: 50em;
+        height: 20px;
+        display: inline-block;
+        vertical-align: top;
+        margin-top: 15px;
+    }
+
+    #nav ul li ul {display: none;}
+    #nav ul li:hover ul {display: block;}
+
+    #nav ul  {
+        margin: 0;
+        padding: 0 0.8em 2px;
+    }
+
+    #nav ul li {
+        background: none repeat scroll 0 0 transparent;
+        float: left;
+        clear: none;
+        list-style: none outside none;
+        margin: 0;
+        font-size: 1.2em;
+        line-height: 25px;
+        margin-bottom: 2px;
+        padding: 0 1em;
+        border-left: 1px solid #6a6a6a;
+    }
+
+    #nav ul li a {
+        color: #6a6a6a;
+        text-decoration: none;
+        border-bottom: 0 none;
+        text-transform: uppercase;
+    }
+
+    #nav ul li ul {
+        background: none;
+        background-color: #818181;
+        float: none;
+        position: absolute;
+    }
+
+    #nav ul li ul li {
+	      margin: 0;
+	      padding: 0;
+	      width: auto;
+	      color: #999999;
+          border: none;
+    }
+
+    #nav ul li:hover a {
+        color: #111;
+    }
+
+    #nav ul li ul li:hover {
+        text-decoration: underline;
+    }
+
+    #nav ul li:hover ul,  #nav ul li ul {
+        z-index: 1000;
+    }
+
+    #nav ul li:hover ul li,  #nav ul li ul li {
+        float: none;
+    }
+
+    #nav ul li:hover ul li a,  #nav ul li ul li a {
+        display: block;
+        background-color: #818181;
+        color: #f1f1f1;
+        line-height: 200%;
+        padding: 0 6px 0 0;
+        text-transform: lowercase;
+        width: 100%;
+        text-align: left;
+    }
+
+    #content {
+        background-color: #181C21;        
+        max-width: 1200px;
+        min-width: 500px;
+        margin: 0 auto;
+        padding: 5px;
+    }
+
+    #primaryContent {
+        background-color: #FAFAFA;
+        border: 2px solid #F1F1F1;
+        border-radius:0.5em;
+        color: #222222;
+        padding: 2px;
+        min-height: 600px;
+    }
+
+}
+
+
+@media print {
+    html {
+        background-color: #FFFFFF;
+        color: #000000;
+    }
+    
+    #site {
+        margin: 0 auto;
+        width: 100%;
+    }
+    
+    #header {
+        visibility:hidden;
+        display:none;
+    }
+    div.pdf-link {
+        visibility:hidden;
+        display:none;
+    }
+
+    a {
+        border-bottom: 0 none;
+    }
+
+    #content {
+        padding: 40px;
+    }
+
+    #primaryContent {
+        background: none repeat scroll 0 0 #FFFFFF;
+        color: #222222;
+        display: inline;
+        min-height: 500px;
+        overflow: visible;
+        position: relative;
+        width: 100%;
+    }
+
+    #print-logo {
+        visibility: visible !important;
+    }
+
+}
+
+.epm-icon {
+    height: 1em !important;
+}
+
+.confidential {
+    color: rgb(100,20,20);
+}
+
+.front-menu {
+    background: url("Project Status BG.JPG") no-repeat scroll left top;
+    min-height: 600px;
+    height: inherit;
+    overflow: auto; 
+    position: relative;
+}
+
+div.risk_summary {
+    margin-right: 30px;
+    text-align: center;
+    float: right;
+}
+
+
+
+p.pipeline {
+    font-size: 2em;
+}
+
+#pipeline-table {
+   width: 100% !Important;
+}
+
+table { page-break-inside:auto }
+tr    { page-break-inside:avoid; page-break-after:auto }
+thead { display:table-header-group }
+tfoot { display:table-footer-group }
+
+table tr td, table.print-friendly tr th {
+    page-break-inside: avoid;
+}
+
+table.general-table {
+    border-bottom: 7px solid #39414A;
+    border-collapse: collapse;
+    border-top: 1px solid #39414A;
+    border-left: 1px dotted #39414A;
+    font-family: "Lucida Sans Unicode","Lucida Grande",Sans-Serif;
+    font-size: 12px;
+    width: 100%;
+    background-color: white;
+}
+.general-table thead {
+    color: #FFFFFF;
+    background-color: #39414a;
+    border-bottom: 2px solid #39414A;
+}
+
+.display tr {
+    border-bottom: 1px dotted #39414A;
+    border-left: 1px dotted #39414A;
+}
+
+table .display th,td {
+    border-right: 1px dotted #39414A;
+}
+
+table .display ul, ol {
+    list-style-position: inside;
+    padding-left:0.5em;
+} 
+
+table .status-table td {
+    background: none repeat scroll 0 0 #FFFFFF;
+    padding: 2px;
+    border: none;
+    text-align: center;
+    vertical-align: top;
+}
+
+table.display td {
+    padding: 2px 4px;
+}
+
+table.display ul {
+    padding-left: 12px;
+}
+
+.clearfix {
+    display: block;
+}
+
+img {
+  border-width: 0;
+}
+
+a img{
+    border:0;
+}
+
+img.status {
+    height: 20px;
+    width: 20px;
+}
+
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+
+pre {
+  background-color: #eee;
+  padding: 10px;
+  font-size: 11px;
+}
+
+a {
+    color: #000;
+}
+
+a:visited {
+    color: #666;
+}
+a:hover {
+   text-decoration: underline;
+}
+
+div .field .actions {
+    margin-bottom: 10px;
+}
+
+#notice {
+  color: green;
+  font-size: 100%;
+}
+
+.field_with_errors {
+  padding: 2px;
+  background-color: red;
+  display: table;
+}
+
+#error_explanation {
+  width: 450px;
+  border: 2px solid red;
+  padding: 7px;
+  padding-bottom: 0;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+  h2 {
+    text-align: left;
+    font-weight: bold;
+    padding: 5px 5px 5px 15px;
+    font-size: 12px;
+    margin: -7px;
+    margin-bottom: 0px;
+    background-color: #c00;
+    color: #fff;
+  }
+  ul li {
+    font-size: 12px;
+    list-style: square;
+  }
+}
+
+.status-line {
+    vertical-align: middle;
+    margin-top: 0px; 
+    margin-bottom: 0px;
+    width: 8em;
+    text-align: center;
+}
+
+.status-line img {
+    vertical-align: middle;
+}
+
+
+form[class*='edit_'],form[class*='new_'] {
+    border: 1px solid #AAAAAA;
+    border-radius: 0.5em 0.5em 0.5em 0.5em;
+    min-height: 400px;
+    overflow: visible;
+    padding: 5px 5px 5px;
+    background: #E2E4FF;
+}
+

@@ -1,0 +1,27 @@
+<% content_for :head do %>
+  <%= javascript_include_tag 'datatable' %>
+<% end %>
+<h1>Report Periods</h1>
+
+<table id="data-enhanced" class="display">
+ <thead>
+  <tr>
+    <th>Week ending</th>
+    <th>Actions</th>
+  </tr>
+ </thead>
+<% @report_periods.each do |report_period| %>
+  <tr>
+    <td><%= report_period %></td>
+    <td>
+        <%= link_to 'Show', report_period %>
+        <%= link_to 'Edit', edit_report_period_path(report_period) %>
+        <%= link_to 'Destroy', report_period, method: :delete, data: { confirm: 'Are you sure?' } %>
+    </td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Report period', new_report_period_path %>

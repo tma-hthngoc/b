@@ -1,0 +1,41 @@
+<%= form_for(@risk_summary) do |f| %>
+  <% if @risk_summary.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@risk_summary.errors.count, "error") %> prohibited this risk_summary from being saved:</h2>
+
+      <ul>
+      <% @risk_summary.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+<% if @risk_summary && !@risk_summary.id.nil? %>
+<p>
+  <div><b>Full path to the file:</b> <%= @risk_summary.riskfile %>
+</p>
+<p>
+  <div><b>Original filename:</b> <%= @risk_summary.riskfile.original_filename %>
+</p>
+<p>
+  <div><b>Download existing file:</b>   <%= link_to "Risk Summary", @risk_summary.riskfile.url %>
+</p>
+<p>
+  Choose a new file below if you wish to update the existing file.
+</p>
+<% end %>
+
+<div class="field">
+  <%= f.label :riskfile, "Select a file to upload" %><br />
+  <%= f.file_field :riskfile %>
+</div>
+<div class="field">
+  <%= f.label :project %><br />
+  <%= f.collection_select :project_id, Project.active.order('name'), 
+      :id, :name, {:include_blank => "For All Projects"} %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

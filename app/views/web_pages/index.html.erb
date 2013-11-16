@@ -1,0 +1,39 @@
+
+<% content_for :head do %>
+  <%= javascript_include_tag 'datatable' %>
+<% end %>
+<h1>Useful Documentation and Links</h1>
+
+<table  id="data-enhanced" class="display">
+  <thead>
+  <tr>
+    <th>Title</th>
+    <th>Description</th>
+    <% if admin_user? %>
+    <th>Actions</th>
+    <% end %>
+  </tr>
+  </thead>
+  <tbody>
+<% @web_pages.each do |web_page| %>
+  <tr>
+    <td>
+      <%= link_to web_page.title, web_page %>
+    </td>
+    <td><%= web_page.description %></td>
+    <% if admin_user? %>
+    <td>
+      <%= link_to 'Show', web_page %>
+      <%= link_to 'Edit', edit_web_page_path(web_page) %>
+      <%= link_to 'Destroy', web_page, method: :delete, data: { confirm: 'Are you sure?' } %>
+    </td>
+    <% end %>
+  </tr>
+  <% end %>
+  </tbody>
+</table>
+
+<br />
+<% if admin_user? %>
+<%= link_to 'New Web page', new_web_page_path %>
+<% end %>

@@ -1,0 +1,12 @@
+<p id="notice"><%= notice %></p>
+
+<h1><%= @web_page.title %> </h1>
+<div id="page_html">
+  <%=raw @web_page.page_html %>
+</div>
+
+
+<% if admin_user? %>
+<%= link_to 'Edit', edit_web_page_path(@web_page) %> |
+<% end %>
+<%= link_to 'Back', web_pages_path %>

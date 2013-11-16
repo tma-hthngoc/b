@@ -1,0 +1,37 @@
+<% content_for :head do %>
+  <%= javascript_include_tag 'datatable' %>
+<% end %>
+<h1>Project Status</h1>
+<p>
+    Project status indicates how healthy the project is right now, the status should indicate if the
+    project is running well, or in jeapordy. The history of the project status is important in a
+    post project review, along with the notes and actions taken. Therefore maintain the status
+    diligently and make it meaningful to the sponsors.
+</p>
+<table id="data-enhanced" class="display">
+ <thead>
+  <tr>
+    <th>Sort</th>
+    <th>Name</th>
+    <th>Icon url</th>
+    <th>Actions</th>
+  </tr>
+ </thead>
+
+<% @statuses.each do |status| %>
+  <tr>
+    <td><%= status.sort_index %></td>
+    <td><%= status.name %></td>
+    <td><%= image_tag(status.icon_url, class: 'status') %> </td>
+    <td>
+        <%= link_to 'Show', status %>
+        <%= link_to 'Edit', edit_status_path(status) %>
+        <%= link_to 'Destroy', status, method: :delete, data: { confirm: 'Are you sure?' } %>
+    </td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Status', new_status_path %>

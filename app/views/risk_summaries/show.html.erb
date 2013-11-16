@@ -1,0 +1,20 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <div><b>Full path to the file:</b> <%= @risk_summary.riskfile %>
+</p>
+<p>
+  <div><b>Original filename:</b> <%= @risk_summary.riskfile.original_filename %>
+</p>
+<p>
+  <div><b>Download file:</b>   <%= link_to "Risk Summary", @risk_summary.riskfile.url %>
+</p>
+
+<p>
+  <b>Project:</b>
+  <%= @risk_summary.project %>
+</p>
+
+
+<%= link_to 'Edit', edit_risk_summary_path(@risk_summary) %> |
+<%= link_to 'Back', risk_summaries_path %>

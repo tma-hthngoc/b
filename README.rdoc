@@ -1,0 +1,32 @@
+== Welcome to Project Status
+Project Status a simple app for tracking and reporting the status, primarily of in-flight projects and subsequently archived projects. It is not a project management tool, but a communication tool.
+
+== Main Screens
+The two main screens are the Pipeline and the Archive. The Pipeline reflects everything that is in-flight. The Archive is anything closed or cancelled.
+
+== Project Status Reporting
+The basic idea is this:-
+Show what we accomplished in the previous period. Show what we aim to accomplish in the next period. Highlight any risks or issues we wish to raise to senior management.
+
+Whilst it is possible to delete old status reports, we encounrage people not to do this. The app will copy over the previous status report (as a reminder of what was reported) so the user can simply amend this and create a new report. The statuses are kept for all history and thus increases transparency as we can go back and look at what changed.
+
+== Administration
+At present the system has two roles, one that accesses everything and another that can only view the Pipeline and Archive. 
+
+Viewers of everything can enter and amend any meta-data (static data) held in the system along with maintaining actual status reports. The models available are:-
+
+Projects - The basic description of a project. 
+
+Status Reports - These can only be accessed via Projects, as each Project is essentially a container for status reports.
+
+Periods - These are the reporting periods (common to all projects). This allows us to define arbitrary periods and have them associated in the database. Initially we set up one per week. Project Status reports will always default to the latest missing period, to encourage people to fill them in, but can be overridden.
+
+Sponsors - Simply a list of people who can sponsor projects
+
+Activities - These should describe the current activity on the project, indicating whether a project is in-flight or not. Activities can be open or closed, where open activities cause projects to appear in the Pipeline and an activity that is closed will cause the projects to appear in the archive.
+
+Statuses - These should represent the health or status of a project during a particular reporting period. It is possible to associate graphical representations to the status report via the URL field, these can be hosted elsewhere, but it is strongly recommended status icons are deployed to the server along with the code.
+
+Depts - Departments are the owning or sponsoring departments of the project. No relationship has been created between sponsor and department to maintain flexibility in reporting. The Pipeline and Archive are broken down by department
+
+Users - The people who can access the system. Currently it provides both authentication and authorisation; we hope to replace this with a SAML SSO implementation on our SSO server as soon as possible. The user maintenance at that point would simply be for authorisation.

@@ -1,0 +1,35 @@
+<% content_for :head do %>
+  <%= javascript_include_tag 'ckeditor' %>
+<% end %>
+
+
+
+<%= form_for(@web_page) do |f| %>
+  <% if @web_page.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@web_page.errors.count, "error") %> prohibited this web_page from being saved:</h2>
+
+      <ul>
+      <% @web_page.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :title %><br />
+    <%= f.text_field :title %>
+  </div>
+  <div class="field">
+    <%= f.label :description %><br />
+    <%= f.text_field :description %>
+  </div>
+  <div class="field">
+    <%= f.label :page_html, 'Web Page' %><br />
+    <%= f.cktext_area :page_html, ckeditor: {toolbar: 'Basic'} %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

@@ -1,0 +1,30 @@
+<% content_for :head do %>
+  <%= javascript_include_tag 'datatable' %>
+<% end %>
+
+<h1>Stakeholders</h1>
+
+<table id="data-enhanced" class="display">
+ <thead>
+  <tr>
+    <th>Name</th>
+    <th>Initials</th>
+    <th>Actions</th>
+  </tr>
+ </thead>
+<% @sponsors.each do |sponsor| %>
+  <tr>
+    <td><%= sponsor.name %></td>
+    <td><%= sponsor.initials %></td>
+    <td>
+        <%= link_to 'Show', sponsor %>
+        <%= link_to 'Edit', edit_sponsor_path(sponsor) %>
+        <%= link_to 'Destroy', sponsor, method: :delete, data: { confirm: 'Are you sure?' } %>
+    </td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Stakeholder', new_sponsor_path %>

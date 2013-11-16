@@ -1,0 +1,62 @@
+<% content_for :head do %>
+  <%= javascript_include_tag 'datatable' %>
+<% end %>
+<%= render 'shared/pdfable' %>
+<%= render 'risk_summaries/risk_summary_link' %>
+
+<h2><%= @tit %></h2>
+
+<table id="pipeline-table" class="display">
+ <thead>
+  <tr>
+    <th>Dept</th>
+    <th>Project</th>
+    <th>Activity</th>
+    <th>Highlight</th>
+    <th>Top Issues/Risks</th>
+    <th>Next Steps</th>
+    <th>Status</th>
+    <th>Remarks</th>
+  </tr>
+ </thead>
+
+ <tbody>
+<% @projects.each do |project| %>
+<% status_report = project.status_reports.reversed.first %>
+<% prv_reports = project.status_reports.reversed.first(3) %>
+  <tr>
+    <td>
+      <%= project.department %>
+    </td>
+    <td>
+      <%= project %> 
+      <% if project.in_epm? %>
+        <%= link_to image_tag('icon_epm.png', alt: 'epm', class: 'epm-icon'), project.epm_url, :class => 'external-link', :title => "View  #{project} project in project centre" %>
+      <% end %>
+      <br />
+      <strong>Sponsor:</strong> <%= project.sponsor.initials %><br />
+      <% unless project.pm.nil? %>
+        <strong>PM:</strong> <%= project.pm.initials %><br />
+      <% end %>
+      <strong>Type:</strong> <%= project.project_type %><br />
+      <strong>History:</strong> <%= link_to 'link', project_status_reports_url(project), :title => "Click to review the full Status History" %><br />
+
+    </td>
+    <td><%= project.activity %>
+    <td><%=raw status_report.highlight if status_report %></td>
+    <td><%=raw status_report.issues_risks if status_report %></td>
+    <td><%=raw status_report.next_steps if status_report %></td>
+    <td>
+      <div class="status-table">
+        <% prv_reports.each do |report| %>
+        <p class='status-line'>
+          <%= render partial: 'statuses/icon', locals: {status: report.status} %><%= report.report_period.week_ending.strftime('%y-%m-%d') %>
+        </p>
+        <% end %>
+      </div>
+    </td>
+    <td><%=raw status_report.remarks if status_report %></td>
+  </tr>
+  <% end %>
+ </tbody>
+</table>

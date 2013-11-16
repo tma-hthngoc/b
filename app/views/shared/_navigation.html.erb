@@ -1,0 +1,116 @@
+<% unless session[:user_id].nil?
+     @rd=''
+     if !session[:is_internal].nil?
+       if session[:is_internal].to_s.downcase == 'false'
+         @rd = "?externaltoken=#{session[:external_token].to_s}"
+       end
+     end
+%>
+    <ul>
+      <li class="jq-jquery">
+        <a href="/pipeline<%= @rd %>">Pipeline</a>
+      </li>
+      <li class="jq-jquery">
+        <a href="/archive<%= @rd %>">Archives</a>
+      </li>
+      <li class="jq-jquery">
+        <a href="#">Menu &gt;</a>
+        <ul>
+          <li class="jq-jquery">
+            <a href="/web_pages<%= @rd %>">Documentation/Links</a>
+          </li>
+          <li class="jq-jquery">
+            <a href="/projects<%= @rd %>">Projects</a>
+          </li>
+          <li class="jq-jquery">
+            <a href="/risk_summaries<%= @rd %>">Risk Summaries</a>
+          </li>
+          <% if power_user? || ro_full_menu? %>
+              <li class="jq-jquery">
+                <a href="/project_types<%= @rd %>">Project Types</a>
+              </li>
+              <li class="jq-jquery">
+                <a href="/report_periods<%= @rd %>">Periods</a>
+              </li>
+              <li class="jq-jquery">
+                <a href="/sponsors<%= @rd %>">Sponsors</a>
+              </li>
+              <li class="jq-jquery">
+                <a href="/activities<%= @rd %>">Activities</a>
+              </li>
+              <li class="jq-jquery">
+                <a href="/statuses<%= @rd %>">Statuses</a>
+              </li>
+              <li class="jq-jquery">
+                <a href="/departments<%= @rd %>">Departments</a>
+              </li>
+              <li class="jq-jquery">
+                <a href="/users<%= @rd %>">Users</a>
+              </li>
+          <% end %>
+        </ul>
+      </li>
+      <li class="jq-jquery">
+        <a href="/logout">Log Out!</a>
+
+      </li>
+    </ul>
+<% end %>
+
+
+
+
+<!--
+<% unless session[:user_id].nil? %>-->
+    <!--<ul>-->
+    <!--<li class="jq-jquery">-->
+    <!--<a href="/pipeline">Pipeline</a>-->
+    <!--</li>-->
+    <!--<li class="jq-jquery">-->
+    <!--<a href="/archive">Archives</a>-->
+    <!--</li>-->
+    <!--<li class="jq-jquery">-->
+    <!--<a href="#">Menu &gt;</a>-->
+    <!--<ul>-->
+    <!--<li class="jq-jquery">-->
+    <!--<a href="/web_pages">Documentation/Links</a>-->
+    <!--</li>-->
+    <!--<li class="jq-jquery">-->
+    <!--<a href="/projects">Projects</a>-->
+    <!--</li>-->
+    <!--<li class="jq-jquery">-->
+    <!--<a href="/risk_summaries">Risk Summaries</a>-->
+    <!--</li>-->
+    <!--
+    <% if power_user? || ro_full_menu? %>-->
+        <!--<li class="jq-jquery">-->
+        <!--<a href="/project_types">Project Types</a>-->
+        <!--</li>-->
+        <!--<li class="jq-jquery">-->
+        <!--<a href="/report_periods">Periods</a>-->
+        <!--</li>-->
+        <!--<li class="jq-jquery">-->
+        <!--<a href="/sponsors">Sponsors</a>-->
+        <!--</li>-->
+        <!--<li class="jq-jquery">-->
+        <!--<a href="/activities">Activities</a>-->
+        <!--</li>-->
+        <!--<li class="jq-jquery">-->
+        <!--<a href="/statuses">Statuses</a>-->
+        <!--</li>-->
+        <!--<li class="jq-jquery">-->
+        <!--<a href="/departments">Departments</a>-->
+        <!--</li>-->
+        <!--<li class="jq-jquery">-->
+        <!--<a href="/users">Users</a>-->
+        <!--</li>-->
+        <!--
+    <% end %>-->
+    <!--</ul>-->
+    <!--</li>-->
+    <!--<li class="jq-jquery">-->
+    <!--<%= link_to 'Log Out!', url_for(controller: 'sessions', action: 'destroy'), method: :delete %>-->
+    <!--</li>-->
+    <!--</ul>-->
+    <!--
+<% end %>-->

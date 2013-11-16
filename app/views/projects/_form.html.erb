@@ -1,0 +1,45 @@
+<%= form_for(@project) do |f| %>
+  <% if @project.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@project.errors.count, "error") %> prohibited this project from being saved:</h2>
+
+      <ul>
+      <% @project.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :name %><br />
+    <%= f.text_field :name %>
+  </div>
+  <div class="field">
+    <%= f.label :department %><br />
+    <%= f.collection_select :department_id, Department.all, :id, :name %>
+  </div>
+  <div class="field">
+    <%= f.label :sponsor %><br />
+    <%= f.collection_select :sponsor_id, Sponsor.sorted, :id, :initials %>
+  </div>
+  <div class="field">
+    <%= f.label :pm %><br />
+    <%= f.collection_select :pm_id, Sponsor.sorted, :id, :initials, {:include_blank => 'TBD'} %>
+  </div>
+  <div class="field">
+    <%= f.label :project_type %><br />
+    <%= f.collection_select :project_type_id, ProjectType.sorted, :id, :name %>
+  </div>
+  <div class="field">
+    <%= f.label :activity %><br />
+    <%= f.collection_select :activity_id, Activity.sorted, :id, :name %>
+  </div>
+  <div class="field">
+    <%= f.label :in_epm %><br />
+    <%= f.check_box :in_epm %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

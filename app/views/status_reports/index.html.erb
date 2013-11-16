@@ -1,0 +1,53 @@
+<% content_for :head do %>
+  <%= javascript_include_tag 'datatable' %>
+<% end %>
+
+<%= render 'risk_summaries/risk_summary_link' %>
+<% if @project.nil? %>
+  <h1>ALL Status Reports</h1>
+  <%= link_to 'New Status report', new_status_report_path %>
+<% else %>
+<h1>Status Report History for <%=h @project.name %></h1>
+<ul class="project-summary">
+  <li>Department: <%=h @project.department.name %></li>
+  <li>Sponsor: <%=h @project.sponsor.initials %></li>
+  <li><%= link_to 'Add a status report', new_status_report_path(project_id: @project.id) %></li>
+</ul>
+  
+<% end %>
+<table id="data-enhanced" class="display">
+ <thead>
+  <tr>
+    <th>Project</th>
+    <th>Highlight</th>
+    <th>Issues risks</th>
+    <th>Next steps</th>
+    <th>Remarks</th>
+    <th>Status</th>
+    <th>Report period</th>
+    <th>Actions</th>
+   </tr>
+ </thead>
+<% @status_reports.each do |status_report| %>
+  <tr>
+    <td><%= status_report.project %></td>
+    <td><%=raw status_report.highlight %></td>
+    <td><%=raw status_report.issues_risks %></td>
+    <td><%=raw status_report.next_steps %></td>
+    <td><%=raw status_report.remarks %></td>
+    <td>
+      <%= image_tag(status_report.status.icon_url, class: 'status') %>
+      <%= status_report.status %>
+    </td>
+    <td><%= status_report.report_period %></td>
+    <td>
+        <%= link_to 'Show', status_report %> | 
+        <%= link_to 'Edit', edit_status_report_path(status_report) %> |
+        <%= link_to 'Destroy', status_report, method: :delete, data: { confirm: 'Are you sure?' } %>
+    </td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+

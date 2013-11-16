@@ -1,0 +1,54 @@
+<%= form_for(@status_report) do |f| %>
+  <% if @status_report.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@status_report.errors.count, "error") %> prohibited this status_report from being saved:</h2>
+
+      <ul>
+      <% @status_report.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :project %><br />
+    <%= f.collection_select :project_id, Project.order('name'), :id, :name %>
+  </div>
+  <div class="field">
+    <%= f.label :status %><br />
+    <%= f.collection_select :status_id, Status.sorted, :id, :name %>
+  </div>
+  <div class="field">
+    <%= f.label :report_period %><br />
+    <%= f.collection_select :report_period_id, ReportPeriod.all, :id, :week_ending %>
+  </div>
+  <div class="field">
+    <%= f.label :highlight %><br />
+    <%= f.cktext_area :highlight, 
+        value: @latest_report.nil? ? '' : @latest_report.highlight,
+        ckeditor: {toolbar: 'Basic'}  %>
+  </div>
+  <div class="field">
+    <%= f.label :issues_risks %><br />
+    <%= f.cktext_area :issues_risks, 
+        value: @latest_report.nil? ? '' : @latest_report.issues_risks, 
+        ckeditor: {toolbar: 'Basic'} %>
+  </div>
+  <div class="field">
+    <%= f.label :next_steps %><br />
+    <%= f.cktext_area :next_steps, 
+        value: @latest_report.nil? ? '' : @latest_report.next_steps, 
+        ckeditor: {toolbar: 'Basic'} %>
+  </div>
+  <div class="field">
+    <%= f.label :remarks %><br />
+    <%= f.cktext_area :remarks, 
+        value: @latest_report.nil? ? '' : @latest_report.remarks, 
+        ckeditor: {toolbar: 'Basic'} %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>
+

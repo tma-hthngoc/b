@@ -1,0 +1,36 @@
+<%= render 'risk_summaries/risk_summary_link' %>
+
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @project.name %>
+</p>
+
+<p>
+  <b>Sponsor:</b>
+  <%= @project.sponsor.initials  unless @project.sponsor.nil? %>
+</p>
+
+<p>
+  <b>PM:</b>
+  <%= @project.pm.initials unless @project.pm.nil? %>
+</p>
+
+<p>
+  <b>Project Type:</b>
+  <%= @project.project_type %>
+</p>
+
+<p>
+  <b>Activity:</b>
+  <%= @project.activity.name %>
+</p>
+<p>
+  <b>In EPM?:</b>
+  <%= @project.in_epm? %>
+</p>
+
+
+<%= link_to 'Edit', edit_project_path(@project) %> |
+<%= link_to 'Back', projects_path %>

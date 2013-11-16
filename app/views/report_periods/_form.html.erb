@@ -1,0 +1,21 @@
+<%= form_for(@report_period) do |f| %>
+  <% if @report_period.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@report_period.errors.count, "error") %> prohibited this report_period from being saved:</h2>
+
+      <ul>
+      <% @report_period.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :week_ending %><br />
+    <%= f.date_select :week_ending %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

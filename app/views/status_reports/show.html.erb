@@ -1,0 +1,47 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Project:</b>
+  <%= @status_report.project %>
+</p>
+
+<p>
+  <b>Status:</b>
+  <%= image_tag(@status_report.status.icon_url, class: 'status') %>
+  <%= @status_report.status %>
+</p>
+
+<p>
+  <b>Report period:</b>
+  <%= @status_report.report_period %>
+</p>
+<hr />
+
+<p>
+  <b>Highlight:</b>
+  <%=raw @status_report.highlight %>
+</p>
+<hr />
+
+<p>
+  <b>Issues risks:</b>
+  <%=raw @status_report.issues_risks %>
+</p>
+<hr />
+
+<p>
+  <b>Next steps:</b>
+  <%=raw @status_report.next_steps %>
+</p>
+<hr />
+<p>
+  <b>Remarks:</b>
+  <%=raw @status_report.remarks %>
+</p>
+<hr />
+
+
+
+<%= link_to 'Edit', edit_status_report_path(@status_report) %> |
+<%= link_to 'Back', status_reports_path(project_id: @status_report.project) %>
+

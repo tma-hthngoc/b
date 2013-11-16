@@ -1,0 +1,2315 @@
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-07 21:51:03 +0700
+Connecting to database specified by database.yml
+
+ActionController::RoutingError (uninitialized constant SpHelper):
+  app/controllers/application_controller.rb:1:in `<top (required)>'
+  app/controllers/welcome_controller.rb:1:in `<top (required)>'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (11.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-07 21:54:33 +0700
+
+ActionController::RoutingError (uninitialized constant SpHelper):
+  app/controllers/application_controller.rb:1:in `<top (required)>'
+  app/controllers/welcome_controller.rb:1:in `<top (required)>'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-07 21:54:37 +0700
+
+ActionController::RoutingError (uninitialized constant SpHelper):
+  app/controllers/application_controller.rb:1:in `<top (required)>'
+  app/controllers/welcome_controller.rb:1:in `<top (required)>'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-07 21:55:59 +0700
+Connecting to database specified by database.yml
+
+ActionController::RoutingError (uninitialized constant SpHelper):
+  app/controllers/application_controller.rb:1:in `<top (required)>'
+  app/controllers/welcome_controller.rb:1:in `<top (required)>'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (8.0ms)
+
+
+Started GET "/addon.css" for 127.0.0.1 at 2013-11-07 21:56:03 +0700
+
+ActionController::RoutingError (No route matches [GET] "/addon.css"):
+  actionpack (3.2.11) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.11) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.11) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.4) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.4) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.11) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.4) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.11) lib/rails/engine.rb:479:in `call'
+  railties (3.2.11) lib/rails/application.rb:223:in `call'
+  rack (1.4.4) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.11) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.4) lib/rack/handler/webrick.rb:59:in `service'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-07 21:57:00 +0700
+
+RuntimeError (Debugger.start is not called yet.):
+  app/controllers/welcome_controller.rb:2:in `<class:WelcomeController>'
+  app/controllers/welcome_controller.rb:1:in `<top (required)>'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (5.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (17.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (104.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-07 22:00:07 +0700
+Connecting to database specified by database.yml
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (37.0ms)
+Compiled jquery.ui.core.css  (0ms)  (pid 8828)
+Compiled jquery.ui.theme.css  (11ms)  (pid 8828)
+Compiled dataTables/jquery.dataTables.css  (117ms)  (pid 8828)
+Compiled dataTables/src/demo_table_jui.css  (1ms)  (pid 8828)
+Compiled activities.css  (3ms)  (pid 8828)
+Compiled common.css  (0ms)  (pid 8828)
+Compiled departments.css  (2ms)  (pid 8828)
+Compiled pipeline.css  (2ms)  (pid 8828)
+Compiled project_types.css  (2ms)  (pid 8828)
+Compiled projects.css  (2ms)  (pid 8828)
+Compiled report_periods.css  (2ms)  (pid 8828)
+Compiled risk_summaries.css  (5ms)  (pid 8828)
+Compiled scaffolds.css  (3ms)  (pid 8828)
+Compiled sessions.css  (2ms)  (pid 8828)
+Compiled sponsors.css  (3ms)  (pid 8828)
+Compiled status_reports.css  (2ms)  (pid 8828)
+Compiled statuses.css  (2ms)  (pid 8828)
+Compiled users.css  (2ms)  (pid 8828)
+Compiled web_pages.css  (2ms)  (pid 8828)
+Compiled welcome.css  (3ms)  (pid 8828)
+Compiled application.css  (730ms)  (pid 8828)
+Compiled jquery.js  (3ms)  (pid 8828)
+Compiled jquery_ujs.js  (0ms)  (pid 8828)
+Compiled jquery.ui.core.js  (2ms)  (pid 8828)
+Compiled jquery.ui.widget.js  (1ms)  (pid 8828)
+Compiled jquery.ui.accordion.js  (169ms)  (pid 8828)
+Compiled jquery.ui.position.js  (1ms)  (pid 8828)
+Compiled jquery.ui.menu.js  (138ms)  (pid 8828)
+Compiled jquery.ui.autocomplete.js  (190ms)  (pid 8828)
+Compiled jquery.ui.button.js  (5ms)  (pid 8828)
+Compiled jquery.ui.datepicker.js  (4ms)  (pid 8828)
+Compiled jquery.ui.mouse.js  (4ms)  (pid 8828)
+Compiled jquery.ui.draggable.js  (61ms)  (pid 8828)
+Compiled jquery.ui.resizable.js  (5ms)  (pid 8828)
+Compiled jquery.ui.dialog.js  (178ms)  (pid 8828)
+Compiled jquery.ui.droppable.js  (5ms)  (pid 8828)
+Compiled jquery.ui.effect.js  (1ms)  (pid 8828)
+Compiled jquery.ui.effect-blind.js  (74ms)  (pid 8828)
+Compiled jquery.ui.effect-bounce.js  (2ms)  (pid 8828)
+Compiled jquery.ui.effect-clip.js  (1ms)  (pid 8828)
+Compiled jquery.ui.effect-drop.js  (2ms)  (pid 8828)
+Compiled jquery.ui.effect-explode.js  (3ms)  (pid 8828)
+Compiled jquery.ui.effect-fade.js  (2ms)  (pid 8828)
+Compiled jquery.ui.effect-fold.js  (2ms)  (pid 8828)
+Compiled jquery.ui.effect-highlight.js  (2ms)  (pid 8828)
+Compiled jquery.ui.effect-pulsate.js  (0ms)  (pid 8828)
+Compiled jquery.ui.effect-scale.js  (2ms)  (pid 8828)
+Compiled jquery.ui.effect-shake.js  (2ms)  (pid 8828)
+Compiled jquery.ui.effect-slide.js  (2ms)  (pid 8828)
+Compiled jquery.ui.effect-transfer.js  (2ms)  (pid 8828)
+Compiled jquery.ui.progressbar.js  (3ms)  (pid 8828)
+Compiled jquery.ui.selectable.js  (6ms)  (pid 8828)
+Compiled jquery.ui.slider.js  (7ms)  (pid 8828)
+Compiled jquery.ui.sortable.js  (3ms)  (pid 8828)
+Compiled jquery.ui.spinner.js  (7ms)  (pid 8828)
+Compiled jquery.ui.tabs.js  (6ms)  (pid 8828)
+Compiled jquery.ui.tooltip.js  (4ms)  (pid 8828)
+Compiled jquery.ui.all.js  (2165ms)  (pid 8828)
+Completed 500 Internal Server Error in 4592ms
+
+ActionView::Template::Error (
+  (in E:/5/_TMA/Projects/SSO/project-status-master/app/assets/javascripts/shared/common.js.coffee)):
+    8:     }
+    9:   </script>
+    10:   <%= stylesheet_link_tag    "application", :media => "all" %>
+    11:   <%= javascript_include_tag "application" %>
+    12:   <%= csrf_meta_tags %>
+    13:   <%= yield(:head) %>
+    14: </head>
+  app/views/layouts/application.html.erb:11:in `_app_views_layouts_application_html_erb___681161536_40672116'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (15.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-07 22:01:31 +0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.0ms)
+Compiled application.js  (1ms)  (pid 8828)
+  Rendered shared/_navigation.html.erb (0.0ms)
+Completed 200 OK in 339ms (Views: 339.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-07 22:01:31 +0700
+Served asset /application.css - 200 OK (22ms)
+
+
+Started GET "/assets/jquery.ui.theme.css?body=1" for 127.0.0.1 at 2013-11-07 22:01:31 +0700
+Served asset /jquery.ui.theme.css - 200 OK (39ms)
+
+
+Started GET "/assets/jquery.ui.core.css?body=1" for 127.0.0.1 at 2013-11-07 22:01:31 +0700
+Served asset /jquery.ui.core.css - 200 OK (10ms)
+
+
+Started GET "/assets/dataTables/jquery.dataTables.css?body=1" for 127.0.0.1 at 2013-11-07 22:01:31 +0700
+Served asset /dataTables/jquery.dataTables.css - 200 OK (31ms)
+
+
+Started GET "/assets/activities.css?body=1" for 127.0.0.1 at 2013-11-07 22:01:31 +0700
+Served asset /activities.css - 200 OK (3ms)
+
+
+Started GET "/assets/dataTables/src/demo_table_jui.css?body=1" for 127.0.0.1 at 2013-11-07 22:01:31 +0700
+Served asset /dataTables/src/demo_table_jui.css - 200 OK (6ms)
+
+
+Started GET "/assets/common.css?body=1" for 127.0.0.1 at 2013-11-07 22:01:31 +0700
+Served asset /common.css - 200 OK (2ms)
+
+
+Started GET "/assets/departments.css?body=1" for 127.0.0.1 at 2013-11-07 22:01:31 +0700
+Served asset /departments.css - 200 OK (3ms)
+
+
+Started GET "/assets/pipeline.css?body=1" for 127.0.0.1 at 2013-11-07 22:01:31 +0700
+Served asset /pipeline.css - 200 OK (3ms)
+
+
+Started GET "/assets/project_types.css?body=1" for 127.0.0.1 at 2013-11-07 22:01:31 +0700
+Served asset /project_types.css - 200 OK (3ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2013-11-07 22:01:31 +0700
+Served asset /projects.css - 200 OK (1ms)
+
+
+Started GET "/assets/report_periods.css?body=1" for 127.0.0.1 at 2013-11-07 22:01:31 +0700
+Served asset /report_periods.css - 200 OK (3ms)
+
+
+Started GET "/assets/risk_summaries.css?body=1" for 127.0.0.1 at 2013-11-07 22:01:32 +0700
+Served asset /risk_summaries.css - 200 OK (2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-11-07 22:01:32 +0700
+Served asset /scaffolds.css - 200 OK (2ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-11-07 22:01:32 +0700
+Served asset /sessions.css - 200 OK (34ms)
+
+
+Started GET "/assets/sponsors.css?body=1" for 127.0.0.1 at 2013-11-07 22:01:32 +0700
+Served asset /sponsors.css - 200 OK (4ms)
+
+
+Started GET "/assets/status_reports.css?body=1" for 127.0.0.1 at 2013-11-07 22:01:32 +0700
+Served asset /status_reports.css - 200 OK (3ms)
+
+
+Started GET "/assets/statuses.css?body=1" for 127.0.0.1 at 2013-11-07 22:01:32 +0700
+Served asset /statuses.css - 200 OK (5ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-11-07 22:01:32 +0700
+Served asset /users.css - 200 OK (2ms)
+
+
+Started GET "/assets/web_pages.css?body=1" for 127.0.0.1 at 2013-11-07 22:01:32 +0700
+Served asset /web_pages.css - 200 OK (1ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-11-07 22:01:32 +0700
+Served asset /welcome.css - 200 OK (3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-07 22:01:32 +0700
+Served asset /application.js - 200 OK (1ms)
+
+
+Started GET "/assets/wallemlogo.gif" for 127.0.0.1 at 2013-11-07 22:01:32 +0700
+Served asset /wallemlogo.gif - 200 OK (48ms)
+
+
+Started GET "/assets/epm_icon.png" for 127.0.0.1 at 2013-11-07 22:01:32 +0700
+Served asset /epm_icon.png - 200 OK (16ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-11-07 22:01:32 +0700
+Served asset /logo.png - 200 OK (11ms)
+
+
+Started GET "/assets/Project%20Status%20BG.JPG" for 127.0.0.1 at 2013-11-07 22:01:32 +0700
+Served asset /Project%20Status%20BG.JPG - 200 OK (63ms)
+
+
+Started GET "/assets/banner.jpg" for 127.0.0.1 at 2013-11-07 22:01:32 +0700
+Served asset /banner.jpg - 200 OK (15ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-07 22:01:38 +0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (1.0ms)
+  Rendered shared/_navigation.html.erb (0.0ms)
+Completed 200 OK in 17ms (Views: 16.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.ui.theme.css?body=1" for 127.0.0.1 at 2013-11-07 22:01:38 +0700
+Served asset /jquery.ui.theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dataTables/jquery.dataTables.css?body=1" for 127.0.0.1 at 2013-11-07 22:01:38 +0700
+Served asset /dataTables/jquery.dataTables.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.core.css?body=1" for 127.0.0.1 at 2013-11-07 22:01:38 +0700
+Served asset /jquery.ui.core.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-07 22:01:38 +0700
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/dataTables/src/demo_table_jui.css?body=1" for 127.0.0.1 at 2013-11-07 22:01:38 +0700
+Served asset /dataTables/src/demo_table_jui.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/activities.css?body=1" for 127.0.0.1 at 2013-11-07 22:01:38 +0700
+Served asset /activities.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/common.css?body=1" for 127.0.0.1 at 2013-11-07 22:01:38 +0700
+Served asset /common.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/departments.css?body=1" for 127.0.0.1 at 2013-11-07 22:01:38 +0700
+Served asset /departments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pipeline.css?body=1" for 127.0.0.1 at 2013-11-07 22:01:38 +0700
+Served asset /pipeline.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/project_types.css?body=1" for 127.0.0.1 at 2013-11-07 22:01:38 +0700
+Served asset /project_types.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2013-11-07 22:01:38 +0700
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/report_periods.css?body=1" for 127.0.0.1 at 2013-11-07 22:01:38 +0700
+Served asset /report_periods.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/risk_summaries.css?body=1" for 127.0.0.1 at 2013-11-07 22:01:38 +0700
+Served asset /risk_summaries.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-11-07 22:01:38 +0700
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-11-07 22:01:38 +0700
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sponsors.css?body=1" for 127.0.0.1 at 2013-11-07 22:01:38 +0700
+Served asset /sponsors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/status_reports.css?body=1" for 127.0.0.1 at 2013-11-07 22:01:38 +0700
+Served asset /status_reports.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/statuses.css?body=1" for 127.0.0.1 at 2013-11-07 22:01:38 +0700
+Served asset /statuses.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-11-07 22:01:38 +0700
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/web_pages.css?body=1" for 127.0.0.1 at 2013-11-07 22:01:38 +0700
+Served asset /web_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-11-07 22:01:38 +0700
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-07 22:01:38 +0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-11-07 22:01:38 +0700
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/wallemlogo.gif" for 127.0.0.1 at 2013-11-07 22:01:38 +0700
+Served asset /wallemlogo.gif - 304 Not Modified (0ms)
+
+
+Started GET "/assets/epm_icon.png" for 127.0.0.1 at 2013-11-07 22:01:38 +0700
+Served asset /epm_icon.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/banner.jpg" for 127.0.0.1 at 2013-11-07 22:01:38 +0700
+Served asset /banner.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/Project%20Status%20BG.JPG" for 127.0.0.1 at 2013-11-07 22:01:38 +0700
+Served asset /Project%20Status%20BG.JPG - 304 Not Modified (1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-07 22:03:38 +0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (1.0ms)
+  Rendered shared/_navigation.html.erb (0.0ms)
+Completed 200 OK in 21ms (Views: 21.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-07 22:03:39 +0700
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.ui.core.css?body=1" for 127.0.0.1 at 2013-11-07 22:03:39 +0700
+Served asset /jquery.ui.core.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.theme.css?body=1" for 127.0.0.1 at 2013-11-07 22:03:39 +0700
+Served asset /jquery.ui.theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dataTables/jquery.dataTables.css?body=1" for 127.0.0.1 at 2013-11-07 22:03:39 +0700
+Served asset /dataTables/jquery.dataTables.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dataTables/src/demo_table_jui.css?body=1" for 127.0.0.1 at 2013-11-07 22:03:39 +0700
+Served asset /dataTables/src/demo_table_jui.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/activities.css?body=1" for 127.0.0.1 at 2013-11-07 22:03:39 +0700
+Served asset /activities.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/common.css?body=1" for 127.0.0.1 at 2013-11-07 22:03:39 +0700
+Served asset /common.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/departments.css?body=1" for 127.0.0.1 at 2013-11-07 22:03:39 +0700
+Served asset /departments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pipeline.css?body=1" for 127.0.0.1 at 2013-11-07 22:03:39 +0700
+Served asset /pipeline.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/project_types.css?body=1" for 127.0.0.1 at 2013-11-07 22:03:39 +0700
+Served asset /project_types.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2013-11-07 22:03:39 +0700
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/report_periods.css?body=1" for 127.0.0.1 at 2013-11-07 22:03:39 +0700
+Served asset /report_periods.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/risk_summaries.css?body=1" for 127.0.0.1 at 2013-11-07 22:03:39 +0700
+Served asset /risk_summaries.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-11-07 22:03:39 +0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-11-07 22:03:39 +0700
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sponsors.css?body=1" for 127.0.0.1 at 2013-11-07 22:03:39 +0700
+Served asset /sponsors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/status_reports.css?body=1" for 127.0.0.1 at 2013-11-07 22:03:39 +0700
+Served asset /status_reports.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/statuses.css?body=1" for 127.0.0.1 at 2013-11-07 22:03:39 +0700
+Served asset /statuses.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-11-07 22:03:39 +0700
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/web_pages.css?body=1" for 127.0.0.1 at 2013-11-07 22:03:39 +0700
+Served asset /web_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-11-07 22:03:39 +0700
+Served asset /welcome.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-07 22:03:39 +0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/epm_icon.png" for 127.0.0.1 at 2013-11-07 22:03:39 +0700
+Served asset /epm_icon.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/wallemlogo.gif" for 127.0.0.1 at 2013-11-07 22:03:39 +0700
+Served asset /wallemlogo.gif - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-11-07 22:03:39 +0700
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/banner.jpg" for 127.0.0.1 at 2013-11-07 22:03:39 +0700
+Served asset /banner.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/Project%20Status%20BG.JPG" for 127.0.0.1 at 2013-11-07 22:03:39 +0700
+Served asset /Project%20Status%20BG.JPG - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-07 22:04:54 +0700
+Connecting to database specified by database.yml
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (10.0ms)
+  Rendered shared/_navigation.html.erb (1.0ms)
+Completed 200 OK in 232ms (Views: 231.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-07 22:04:55 +0700
+Served asset /application.css - 304 Not Modified (38ms)
+
+
+Started GET "/assets/activities.css?body=1" for 127.0.0.1 at 2013-11-07 22:04:55 +0700
+Served asset /activities.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.ui.theme.css?body=1" for 127.0.0.1 at 2013-11-07 22:04:56 +0700
+Served asset /jquery.ui.theme.css - 304 Not Modified (12ms)
+
+
+Started GET "/assets/jquery.ui.core.css?body=1" for 127.0.0.1 at 2013-11-07 22:04:56 +0700
+Served asset /jquery.ui.core.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/dataTables/jquery.dataTables.css?body=1" for 127.0.0.1 at 2013-11-07 22:04:56 +0700
+Served asset /dataTables/jquery.dataTables.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/dataTables/src/demo_table_jui.css?body=1" for 127.0.0.1 at 2013-11-07 22:04:56 +0700
+Served asset /dataTables/src/demo_table_jui.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/common.css?body=1" for 127.0.0.1 at 2013-11-07 22:04:56 +0700
+Served asset /common.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/departments.css?body=1" for 127.0.0.1 at 2013-11-07 22:04:56 +0700
+Served asset /departments.css - 304 Not Modified (25ms)
+
+
+Started GET "/assets/pipeline.css?body=1" for 127.0.0.1 at 2013-11-07 22:04:56 +0700
+Served asset /pipeline.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/project_types.css?body=1" for 127.0.0.1 at 2013-11-07 22:04:56 +0700
+Served asset /project_types.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2013-11-07 22:04:56 +0700
+Served asset /projects.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/report_periods.css?body=1" for 127.0.0.1 at 2013-11-07 22:04:56 +0700
+Served asset /report_periods.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/risk_summaries.css?body=1" for 127.0.0.1 at 2013-11-07 22:04:56 +0700
+Served asset /risk_summaries.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-11-07 22:04:56 +0700
+Served asset /scaffolds.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-11-07 22:04:56 +0700
+Served asset /sessions.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/sponsors.css?body=1" for 127.0.0.1 at 2013-11-07 22:04:56 +0700
+Served asset /sponsors.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/status_reports.css?body=1" for 127.0.0.1 at 2013-11-07 22:04:56 +0700
+Served asset /status_reports.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/statuses.css?body=1" for 127.0.0.1 at 2013-11-07 22:04:56 +0700
+Served asset /statuses.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-11-07 22:04:56 +0700
+Served asset /users.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/web_pages.css?body=1" for 127.0.0.1 at 2013-11-07 22:04:56 +0700
+Served asset /web_pages.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-11-07 22:04:56 +0700
+Served asset /welcome.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-07 22:04:56 +0700
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/epm_icon.png" for 127.0.0.1 at 2013-11-07 22:04:56 +0700
+Served asset /epm_icon.png - 304 Not Modified (3ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-11-07 22:04:56 +0700
+Served asset /logo.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/wallemlogo.gif" for 127.0.0.1 at 2013-11-07 22:04:56 +0700
+Served asset /wallemlogo.gif - 304 Not Modified (1ms)
+
+
+Started GET "/assets/banner.jpg" for 127.0.0.1 at 2013-11-07 22:04:56 +0700
+Served asset /banner.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/Project%20Status%20BG.JPG" for 127.0.0.1 at 2013-11-07 22:04:56 +0700
+Served asset /Project%20Status%20BG.JPG - 304 Not Modified (25ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-07 22:05:42 +0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.0ms)
+Compiled application.js  (0ms)  (pid 8716)
+  Rendered shared/_navigation.html.erb (0.0ms)
+Completed 200 OK in 39ms (Views: 39.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-07 22:05:42 +0700
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.ui.core.css?body=1" for 127.0.0.1 at 2013-11-07 22:05:42 +0700
+Served asset /jquery.ui.core.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dataTables/jquery.dataTables.css?body=1" for 127.0.0.1 at 2013-11-07 22:05:42 +0700
+Served asset /dataTables/jquery.dataTables.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dataTables/src/demo_table_jui.css?body=1" for 127.0.0.1 at 2013-11-07 22:05:42 +0700
+Served asset /dataTables/src/demo_table_jui.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.ui.theme.css?body=1" for 127.0.0.1 at 2013-11-07 22:05:42 +0700
+Served asset /jquery.ui.theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/activities.css?body=1" for 127.0.0.1 at 2013-11-07 22:05:42 +0700
+Served asset /activities.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/common.css?body=1" for 127.0.0.1 at 2013-11-07 22:05:42 +0700
+Served asset /common.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/departments.css?body=1" for 127.0.0.1 at 2013-11-07 22:05:43 +0700
+Served asset /departments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pipeline.css?body=1" for 127.0.0.1 at 2013-11-07 22:05:43 +0700
+Served asset /pipeline.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/project_types.css?body=1" for 127.0.0.1 at 2013-11-07 22:05:43 +0700
+Served asset /project_types.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2013-11-07 22:05:43 +0700
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/report_periods.css?body=1" for 127.0.0.1 at 2013-11-07 22:05:43 +0700
+Served asset /report_periods.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/risk_summaries.css?body=1" for 127.0.0.1 at 2013-11-07 22:05:43 +0700
+Served asset /risk_summaries.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-11-07 22:05:43 +0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-11-07 22:05:43 +0700
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sponsors.css?body=1" for 127.0.0.1 at 2013-11-07 22:05:43 +0700
+Served asset /sponsors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/status_reports.css?body=1" for 127.0.0.1 at 2013-11-07 22:05:43 +0700
+Served asset /status_reports.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/statuses.css?body=1" for 127.0.0.1 at 2013-11-07 22:05:43 +0700
+Served asset /statuses.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-11-07 22:05:43 +0700
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/web_pages.css?body=1" for 127.0.0.1 at 2013-11-07 22:05:43 +0700
+Served asset /web_pages.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-11-07 22:05:43 +0700
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-07 22:05:43 +0700
+Served asset /application.js - 200 OK (3ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-11-07 22:05:43 +0700
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/epm_icon.png" for 127.0.0.1 at 2013-11-07 22:05:43 +0700
+Served asset /epm_icon.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/banner.jpg" for 127.0.0.1 at 2013-11-07 22:05:43 +0700
+Served asset /banner.jpg - 304 Not Modified (1ms)
+
+
+Started GET "/assets/Project%20Status%20BG.JPG" for 127.0.0.1 at 2013-11-07 22:05:43 +0700
+Served asset /Project%20Status%20BG.JPG - 304 Not Modified (0ms)
+
+
+Started GET "/assets/wallemlogo.gif" for 127.0.0.1 at 2013-11-07 22:05:43 +0700
+Served asset /wallemlogo.gif - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-07 22:05:44 +0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (1.0ms)
+  Rendered shared/_navigation.html.erb (0.0ms)
+Completed 200 OK in 15ms (Views: 15.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-07 22:05:44 +0700
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.ui.core.css?body=1" for 127.0.0.1 at 2013-11-07 22:05:44 +0700
+Served asset /jquery.ui.core.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dataTables/jquery.dataTables.css?body=1" for 127.0.0.1 at 2013-11-07 22:05:44 +0700
+Served asset /dataTables/jquery.dataTables.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/activities.css?body=1" for 127.0.0.1 at 2013-11-07 22:05:44 +0700
+Served asset /activities.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dataTables/src/demo_table_jui.css?body=1" for 127.0.0.1 at 2013-11-07 22:05:44 +0700
+Served asset /dataTables/src/demo_table_jui.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.theme.css?body=1" for 127.0.0.1 at 2013-11-07 22:05:44 +0700
+Served asset /jquery.ui.theme.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/common.css?body=1" for 127.0.0.1 at 2013-11-07 22:05:44 +0700
+Served asset /common.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/departments.css?body=1" for 127.0.0.1 at 2013-11-07 22:05:44 +0700
+Served asset /departments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pipeline.css?body=1" for 127.0.0.1 at 2013-11-07 22:05:44 +0700
+Served asset /pipeline.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/project_types.css?body=1" for 127.0.0.1 at 2013-11-07 22:05:44 +0700
+Served asset /project_types.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2013-11-07 22:05:44 +0700
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/report_periods.css?body=1" for 127.0.0.1 at 2013-11-07 22:05:44 +0700
+Served asset /report_periods.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/risk_summaries.css?body=1" for 127.0.0.1 at 2013-11-07 22:05:44 +0700
+Served asset /risk_summaries.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-11-07 22:05:44 +0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-11-07 22:05:44 +0700
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sponsors.css?body=1" for 127.0.0.1 at 2013-11-07 22:05:44 +0700
+Served asset /sponsors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/status_reports.css?body=1" for 127.0.0.1 at 2013-11-07 22:05:45 +0700
+Served asset /status_reports.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/statuses.css?body=1" for 127.0.0.1 at 2013-11-07 22:05:45 +0700
+Served asset /statuses.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-11-07 22:05:45 +0700
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/web_pages.css?body=1" for 127.0.0.1 at 2013-11-07 22:05:45 +0700
+Served asset /web_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-11-07 22:05:45 +0700
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-07 22:05:45 +0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-11-07 22:05:45 +0700
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/wallemlogo.gif" for 127.0.0.1 at 2013-11-07 22:05:45 +0700
+Served asset /wallemlogo.gif - 304 Not Modified (0ms)
+
+
+Started GET "/assets/epm_icon.png" for 127.0.0.1 at 2013-11-07 22:05:45 +0700
+Served asset /epm_icon.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/banner.jpg" for 127.0.0.1 at 2013-11-07 22:05:45 +0700
+Served asset /banner.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/Project%20Status%20BG.JPG" for 127.0.0.1 at 2013-11-07 22:05:45 +0700
+Served asset /Project%20Status%20BG.JPG - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-07 22:07:32 +0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (1.0ms)
+  Rendered shared/_navigation.html.erb (0.0ms)
+Completed 200 OK in 14ms (Views: 14.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-07 22:07:32 +0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.core.css?body=1" for 127.0.0.1 at 2013-11-07 22:07:32 +0700
+Served asset /jquery.ui.core.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.theme.css?body=1" for 127.0.0.1 at 2013-11-07 22:07:32 +0700
+Served asset /jquery.ui.theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dataTables/jquery.dataTables.css?body=1" for 127.0.0.1 at 2013-11-07 22:07:32 +0700
+Served asset /dataTables/jquery.dataTables.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/activities.css?body=1" for 127.0.0.1 at 2013-11-07 22:07:32 +0700
+Served asset /activities.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dataTables/src/demo_table_jui.css?body=1" for 127.0.0.1 at 2013-11-07 22:07:32 +0700
+Served asset /dataTables/src/demo_table_jui.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/common.css?body=1" for 127.0.0.1 at 2013-11-07 22:07:32 +0700
+Served asset /common.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pipeline.css?body=1" for 127.0.0.1 at 2013-11-07 22:07:32 +0700
+Served asset /pipeline.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/project_types.css?body=1" for 127.0.0.1 at 2013-11-07 22:07:32 +0700
+Served asset /project_types.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2013-11-07 22:07:32 +0700
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/report_periods.css?body=1" for 127.0.0.1 at 2013-11-07 22:07:32 +0700
+Served asset /report_periods.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/risk_summaries.css?body=1" for 127.0.0.1 at 2013-11-07 22:07:32 +0700
+Served asset /risk_summaries.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-11-07 22:07:32 +0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-11-07 22:07:32 +0700
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sponsors.css?body=1" for 127.0.0.1 at 2013-11-07 22:07:32 +0700
+Served asset /sponsors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/status_reports.css?body=1" for 127.0.0.1 at 2013-11-07 22:07:32 +0700
+Served asset /status_reports.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/statuses.css?body=1" for 127.0.0.1 at 2013-11-07 22:07:32 +0700
+Served asset /statuses.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/departments.css?body=1" for 127.0.0.1 at 2013-11-07 22:07:32 +0700
+Served asset /departments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-11-07 22:07:32 +0700
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/web_pages.css?body=1" for 127.0.0.1 at 2013-11-07 22:07:32 +0700
+Served asset /web_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-11-07 22:07:32 +0700
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-07 22:07:32 +0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-11-07 22:07:32 +0700
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/wallemlogo.gif" for 127.0.0.1 at 2013-11-07 22:07:32 +0700
+Served asset /wallemlogo.gif - 304 Not Modified (0ms)
+
+
+Started GET "/assets/epm_icon.png" for 127.0.0.1 at 2013-11-07 22:07:32 +0700
+Served asset /epm_icon.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/banner.jpg" for 127.0.0.1 at 2013-11-07 22:07:32 +0700
+Served asset /banner.jpg - 304 Not Modified (1ms)
+
+
+Started GET "/assets/Project%20Status%20BG.JPG" for 127.0.0.1 at 2013-11-07 22:07:32 +0700
+Served asset /Project%20Status%20BG.JPG - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-07 22:08:34 +0700
+Connecting to database specified by database.yml
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (18.0ms)
+  Rendered shared/_navigation.html.erb (1.0ms)
+Completed 200 OK in 517ms (Views: 515.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-07 22:08:52 +0700
+Served asset /application.css - 304 Not Modified (130ms)
+
+
+Started GET "/assets/jquery.ui.core.css?body=1" for 127.0.0.1 at 2013-11-07 22:08:52 +0700
+Served asset /jquery.ui.core.css - 304 Not Modified (45ms)
+
+
+Started GET "/assets/jquery.ui.theme.css?body=1" for 127.0.0.1 at 2013-11-07 22:08:52 +0700
+Served asset /jquery.ui.theme.css - 304 Not Modified (25ms)
+
+
+Started GET "/assets/dataTables/jquery.dataTables.css?body=1" for 127.0.0.1 at 2013-11-07 22:08:52 +0700
+Served asset /dataTables/jquery.dataTables.css - 304 Not Modified (9ms)
+
+
+Started GET "/assets/dataTables/src/demo_table_jui.css?body=1" for 127.0.0.1 at 2013-11-07 22:08:52 +0700
+Served asset /dataTables/src/demo_table_jui.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/activities.css?body=1" for 127.0.0.1 at 2013-11-07 22:08:52 +0700
+Served asset /activities.css - 304 Not Modified (13ms)
+
+
+Started GET "/assets/pipeline.css?body=1" for 127.0.0.1 at 2013-11-07 22:08:52 +0700
+Served asset /pipeline.css - 304 Not Modified (9ms)
+
+
+Started GET "/assets/departments.css?body=1" for 127.0.0.1 at 2013-11-07 22:08:52 +0700
+Served asset /departments.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/common.css?body=1" for 127.0.0.1 at 2013-11-07 22:08:52 +0700
+Served asset /common.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/project_types.css?body=1" for 127.0.0.1 at 2013-11-07 22:08:52 +0700
+Served asset /project_types.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2013-11-07 22:08:52 +0700
+Served asset /projects.css - 304 Not Modified (27ms)
+
+
+Started GET "/assets/report_periods.css?body=1" for 127.0.0.1 at 2013-11-07 22:08:53 +0700
+Served asset /report_periods.css - 304 Not Modified (9ms)
+
+
+Started GET "/assets/risk_summaries.css?body=1" for 127.0.0.1 at 2013-11-07 22:08:53 +0700
+Served asset /risk_summaries.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-11-07 22:08:53 +0700
+Served asset /scaffolds.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-11-07 22:08:53 +0700
+Served asset /sessions.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/sponsors.css?body=1" for 127.0.0.1 at 2013-11-07 22:08:53 +0700
+Served asset /sponsors.css - 304 Not Modified (25ms)
+
+
+Started GET "/assets/status_reports.css?body=1" for 127.0.0.1 at 2013-11-07 22:08:53 +0700
+Served asset /status_reports.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/statuses.css?body=1" for 127.0.0.1 at 2013-11-07 22:08:53 +0700
+Served asset /statuses.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-11-07 22:08:53 +0700
+Served asset /users.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/web_pages.css?body=1" for 127.0.0.1 at 2013-11-07 22:08:53 +0700
+Served asset /web_pages.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-11-07 22:08:53 +0700
+Served asset /welcome.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-07 22:08:53 +0700
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-11-07 22:08:54 +0700
+Served asset /logo.png - 304 Not Modified (16ms)
+
+
+Started GET "/assets/epm_icon.png" for 127.0.0.1 at 2013-11-07 22:08:54 +0700
+Served asset /epm_icon.png - 304 Not Modified (40ms)
+
+
+Started GET "/assets/wallemlogo.gif" for 127.0.0.1 at 2013-11-07 22:08:54 +0700
+Served asset /wallemlogo.gif - 304 Not Modified (5ms)
+
+
+Started GET "/assets/banner.jpg" for 127.0.0.1 at 2013-11-07 22:08:54 +0700
+Served asset /banner.jpg - 304 Not Modified (4ms)
+
+
+Started GET "/assets/Project%20Status%20BG.JPG" for 127.0.0.1 at 2013-11-07 22:08:54 +0700
+Served asset /Project%20Status%20BG.JPG - 304 Not Modified (48ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-07 22:09:17 +0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.0ms)
+  Rendered shared/_navigation.html.erb (0.0ms)
+Completed 200 OK in 32ms (Views: 31.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-07 22:09:17 +0700
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.ui.core.css?body=1" for 127.0.0.1 at 2013-11-07 22:09:18 +0700
+Served asset /jquery.ui.core.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dataTables/src/demo_table_jui.css?body=1" for 127.0.0.1 at 2013-11-07 22:09:18 +0700
+Served asset /dataTables/src/demo_table_jui.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/activities.css?body=1" for 127.0.0.1 at 2013-11-07 22:09:18 +0700
+Served asset /activities.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.theme.css?body=1" for 127.0.0.1 at 2013-11-07 22:09:18 +0700
+Served asset /jquery.ui.theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/common.css?body=1" for 127.0.0.1 at 2013-11-07 22:09:18 +0700
+Served asset /common.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dataTables/jquery.dataTables.css?body=1" for 127.0.0.1 at 2013-11-07 22:09:18 +0700
+Served asset /dataTables/jquery.dataTables.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/pipeline.css?body=1" for 127.0.0.1 at 2013-11-07 22:09:18 +0700
+Served asset /pipeline.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/project_types.css?body=1" for 127.0.0.1 at 2013-11-07 22:09:18 +0700
+Served asset /project_types.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2013-11-07 22:09:18 +0700
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/report_periods.css?body=1" for 127.0.0.1 at 2013-11-07 22:09:18 +0700
+Served asset /report_periods.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/risk_summaries.css?body=1" for 127.0.0.1 at 2013-11-07 22:09:18 +0700
+Served asset /risk_summaries.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-11-07 22:09:18 +0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-11-07 22:09:18 +0700
+Served asset /sessions.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/sponsors.css?body=1" for 127.0.0.1 at 2013-11-07 22:09:18 +0700
+Served asset /sponsors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/status_reports.css?body=1" for 127.0.0.1 at 2013-11-07 22:09:18 +0700
+Served asset /status_reports.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/statuses.css?body=1" for 127.0.0.1 at 2013-11-07 22:09:18 +0700
+Served asset /statuses.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-11-07 22:09:18 +0700
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/departments.css?body=1" for 127.0.0.1 at 2013-11-07 22:09:18 +0700
+Served asset /departments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/web_pages.css?body=1" for 127.0.0.1 at 2013-11-07 22:09:18 +0700
+Served asset /web_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-11-07 22:09:18 +0700
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-07 22:09:18 +0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/wallemlogo.gif" for 127.0.0.1 at 2013-11-07 22:09:19 +0700
+Served asset /wallemlogo.gif - 304 Not Modified (0ms)
+
+
+Started GET "/assets/epm_icon.png" for 127.0.0.1 at 2013-11-07 22:09:19 +0700
+Served asset /epm_icon.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-11-07 22:09:19 +0700
+Served asset /logo.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/banner.jpg" for 127.0.0.1 at 2013-11-07 22:09:19 +0700
+Served asset /banner.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/Project%20Status%20BG.JPG" for 127.0.0.1 at 2013-11-07 22:09:19 +0700
+Served asset /Project%20Status%20BG.JPG - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-07 22:09:31 +0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.0ms)
+  Rendered shared/_navigation.html.erb (0.0ms)
+Completed 200 OK in 31ms (Views: 31.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-07 22:09:31 +0700
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.ui.theme.css?body=1" for 127.0.0.1 at 2013-11-07 22:09:31 +0700
+Served asset /jquery.ui.theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.core.css?body=1" for 127.0.0.1 at 2013-11-07 22:09:31 +0700
+Served asset /jquery.ui.core.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dataTables/jquery.dataTables.css?body=1" for 127.0.0.1 at 2013-11-07 22:09:31 +0700
+Served asset /dataTables/jquery.dataTables.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dataTables/src/demo_table_jui.css?body=1" for 127.0.0.1 at 2013-11-07 22:09:31 +0700
+Served asset /dataTables/src/demo_table_jui.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/activities.css?body=1" for 127.0.0.1 at 2013-11-07 22:09:31 +0700
+Served asset /activities.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/departments.css?body=1" for 127.0.0.1 at 2013-11-07 22:09:31 +0700
+Served asset /departments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/common.css?body=1" for 127.0.0.1 at 2013-11-07 22:09:31 +0700
+Served asset /common.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pipeline.css?body=1" for 127.0.0.1 at 2013-11-07 22:09:31 +0700
+Served asset /pipeline.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/project_types.css?body=1" for 127.0.0.1 at 2013-11-07 22:09:31 +0700
+Served asset /project_types.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2013-11-07 22:09:31 +0700
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/report_periods.css?body=1" for 127.0.0.1 at 2013-11-07 22:09:31 +0700
+Served asset /report_periods.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/risk_summaries.css?body=1" for 127.0.0.1 at 2013-11-07 22:09:31 +0700
+Served asset /risk_summaries.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-11-07 22:09:31 +0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-11-07 22:09:31 +0700
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sponsors.css?body=1" for 127.0.0.1 at 2013-11-07 22:09:31 +0700
+Served asset /sponsors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/status_reports.css?body=1" for 127.0.0.1 at 2013-11-07 22:09:31 +0700
+Served asset /status_reports.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/statuses.css?body=1" for 127.0.0.1 at 2013-11-07 22:09:31 +0700
+Served asset /statuses.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-11-07 22:09:31 +0700
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/web_pages.css?body=1" for 127.0.0.1 at 2013-11-07 22:09:31 +0700
+Served asset /web_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-11-07 22:09:31 +0700
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-07 22:09:31 +0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-11-07 22:09:31 +0700
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/epm_icon.png" for 127.0.0.1 at 2013-11-07 22:09:31 +0700
+Served asset /epm_icon.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/wallemlogo.gif" for 127.0.0.1 at 2013-11-07 22:09:31 +0700
+Served asset /wallemlogo.gif - 304 Not Modified (0ms)
+
+
+Started GET "/assets/banner.jpg" for 127.0.0.1 at 2013-11-07 22:09:31 +0700
+Served asset /banner.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/Project%20Status%20BG.JPG" for 127.0.0.1 at 2013-11-07 22:09:32 +0700
+Served asset /Project%20Status%20BG.JPG - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-07 22:10:36 +0700
+Connecting to database specified by database.yml
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (11.0ms)
+  Rendered shared/_navigation.html.erb (0.0ms)
+Completed 200 OK in 249ms (Views: 249.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-07 22:10:41 +0700
+Served asset /application.css - 304 Not Modified (87ms)
+
+
+Started GET "/assets/jquery.ui.core.css?body=1" for 127.0.0.1 at 2013-11-07 22:10:41 +0700
+Served asset /jquery.ui.core.css - 304 Not Modified (15ms)
+
+
+Started GET "/assets/jquery.ui.theme.css?body=1" for 127.0.0.1 at 2013-11-07 22:10:41 +0700
+Served asset /jquery.ui.theme.css - 304 Not Modified (15ms)
+
+
+Started GET "/assets/dataTables/jquery.dataTables.css?body=1" for 127.0.0.1 at 2013-11-07 22:10:41 +0700
+Served asset /dataTables/jquery.dataTables.css - 304 Not Modified (26ms)
+
+
+Started GET "/assets/dataTables/src/demo_table_jui.css?body=1" for 127.0.0.1 at 2013-11-07 22:10:41 +0700
+Served asset /dataTables/src/demo_table_jui.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/activities.css?body=1" for 127.0.0.1 at 2013-11-07 22:10:41 +0700
+Served asset /activities.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/common.css?body=1" for 127.0.0.1 at 2013-11-07 22:10:41 +0700
+Served asset /common.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/departments.css?body=1" for 127.0.0.1 at 2013-11-07 22:10:41 +0700
+Served asset /departments.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/pipeline.css?body=1" for 127.0.0.1 at 2013-11-07 22:10:41 +0700
+Served asset /pipeline.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/project_types.css?body=1" for 127.0.0.1 at 2013-11-07 22:10:41 +0700
+Served asset /project_types.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2013-11-07 22:10:41 +0700
+Served asset /projects.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/report_periods.css?body=1" for 127.0.0.1 at 2013-11-07 22:10:41 +0700
+Served asset /report_periods.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/risk_summaries.css?body=1" for 127.0.0.1 at 2013-11-07 22:10:41 +0700
+Served asset /risk_summaries.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-11-07 22:10:41 +0700
+Served asset /scaffolds.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-11-07 22:10:41 +0700
+Served asset /sessions.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/sponsors.css?body=1" for 127.0.0.1 at 2013-11-07 22:10:41 +0700
+Served asset /sponsors.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/status_reports.css?body=1" for 127.0.0.1 at 2013-11-07 22:10:41 +0700
+Served asset /status_reports.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/statuses.css?body=1" for 127.0.0.1 at 2013-11-07 22:10:41 +0700
+Served asset /statuses.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-11-07 22:10:41 +0700
+Served asset /users.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/web_pages.css?body=1" for 127.0.0.1 at 2013-11-07 22:10:41 +0700
+Served asset /web_pages.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-11-07 22:10:41 +0700
+Served asset /welcome.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-07 22:10:41 +0700
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-11-07 22:10:41 +0700
+Served asset /logo.png - 304 Not Modified (5ms)
+
+
+Started GET "/assets/epm_icon.png" for 127.0.0.1 at 2013-11-07 22:10:41 +0700
+Served asset /epm_icon.png - 304 Not Modified (3ms)
+
+
+Started GET "/assets/wallemlogo.gif" for 127.0.0.1 at 2013-11-07 22:10:41 +0700
+Served asset /wallemlogo.gif - 304 Not Modified (21ms)
+
+
+Started GET "/assets/Project%20Status%20BG.JPG" for 127.0.0.1 at 2013-11-07 22:10:42 +0700
+Served asset /Project%20Status%20BG.JPG - 304 Not Modified (6ms)
+
+
+Started GET "/assets/banner.jpg" for 127.0.0.1 at 2013-11-07 22:10:42 +0700
+Served asset /banner.jpg - 304 Not Modified (2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-07 22:11:43 +0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.0ms)
+  Rendered shared/_navigation.html.erb (0.0ms)
+Completed 200 OK in 35ms (Views: 34.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-07 22:11:43 +0700
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.ui.core.css?body=1" for 127.0.0.1 at 2013-11-07 22:11:43 +0700
+Served asset /jquery.ui.core.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.theme.css?body=1" for 127.0.0.1 at 2013-11-07 22:11:43 +0700
+Served asset /jquery.ui.theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dataTables/jquery.dataTables.css?body=1" for 127.0.0.1 at 2013-11-07 22:11:43 +0700
+Served asset /dataTables/jquery.dataTables.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dataTables/src/demo_table_jui.css?body=1" for 127.0.0.1 at 2013-11-07 22:11:43 +0700
+Served asset /dataTables/src/demo_table_jui.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/activities.css?body=1" for 127.0.0.1 at 2013-11-07 22:11:43 +0700
+Served asset /activities.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/departments.css?body=1" for 127.0.0.1 at 2013-11-07 22:11:43 +0700
+Served asset /departments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pipeline.css?body=1" for 127.0.0.1 at 2013-11-07 22:11:43 +0700
+Served asset /pipeline.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/project_types.css?body=1" for 127.0.0.1 at 2013-11-07 22:11:43 +0700
+Served asset /project_types.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2013-11-07 22:11:43 +0700
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/report_periods.css?body=1" for 127.0.0.1 at 2013-11-07 22:11:43 +0700
+Served asset /report_periods.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/risk_summaries.css?body=1" for 127.0.0.1 at 2013-11-07 22:11:43 +0700
+Served asset /risk_summaries.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-11-07 22:11:43 +0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-11-07 22:11:43 +0700
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sponsors.css?body=1" for 127.0.0.1 at 2013-11-07 22:11:43 +0700
+Served asset /sponsors.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/common.css?body=1" for 127.0.0.1 at 2013-11-07 22:11:43 +0700
+Served asset /common.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/status_reports.css?body=1" for 127.0.0.1 at 2013-11-07 22:11:43 +0700
+Served asset /status_reports.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/statuses.css?body=1" for 127.0.0.1 at 2013-11-07 22:11:43 +0700
+Served asset /statuses.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-11-07 22:11:43 +0700
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/web_pages.css?body=1" for 127.0.0.1 at 2013-11-07 22:11:43 +0700
+Served asset /web_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-11-07 22:11:43 +0700
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-07 22:11:43 +0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-11-07 22:11:43 +0700
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/epm_icon.png" for 127.0.0.1 at 2013-11-07 22:11:43 +0700
+Served asset /epm_icon.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/wallemlogo.gif" for 127.0.0.1 at 2013-11-07 22:11:43 +0700
+Served asset /wallemlogo.gif - 304 Not Modified (0ms)
+
+
+Started GET "/assets/banner.jpg" for 127.0.0.1 at 2013-11-07 22:11:44 +0700
+Served asset /banner.jpg - 304 Not Modified (1ms)
+
+
+Started GET "/assets/Project%20Status%20BG.JPG" for 127.0.0.1 at 2013-11-07 22:11:44 +0700
+Served asset /Project%20Status%20BG.JPG - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-07 22:17:31 +0700
+Processing by WelcomeController#index as HTML
+Completed 500 Internal Server Error in 7960ms
+
+NoMethodError (undefined method `is_logged' for #<WelcomeController:0x48ec8f8>):
+  app/controllers/application_controller.rb:38:in `authenticated_user'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (32.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-07 22:18:23 +0700
+Processing by WelcomeController#index as HTML
+Redirected to 
+Completed 404 Not Found in 1354ms
+
+ActionController::RoutingError (No route matches {:controller=>"sessions"}):
+  app/controllers/application_controller.rb:41:in `authenticated_user'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-07 22:19:09 +0700
+Processing by WelcomeController#index as HTML
+Redirected to http://localhost:3000/sessions
+Filter chain halted as :authenticated_user rendered or redirected
+Completed 302 Found in 1098ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/sessions" for 127.0.0.1 at 2013-11-07 22:19:14 +0700
+Processing by SessionsController#index as HTML
+Redirected to http://localhost:3047/home/login?tkfrom=http://localhost:3000/sessions
+Completed 302 Found in 23962ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/sessions?tkid=aaid17E52ACD9D5EFB5ADB52C53B8B49635EF4&tkallow=False" for 127.0.0.1 at 2013-11-07 22:20:37 +0700
+Processing by SessionsController#index as HTML
+  Parameters: {"tkid"=>"aaid17E52ACD9D5EFB5ADB52C53B8B49635EF4", "tkallow"=>"False"}
+Completed 500 Internal Server Error in 14049ms
+
+ActiveRecord::StatementInvalid (Could not find table 'users'):
+  app/controllers/sessions_controller.rb:16:in `create'
+  app/controllers/sessions_controller.rb:53:in `index'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (22.0ms)
+Connecting to database specified by database.yml
+  [1m[36m (0.0ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (160.0ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (145.0ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.0ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+Migrating to CreateSponsors (20130112060122)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  CREATE TABLE "sponsors" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "initials" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.0ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20130112060122')[0m
+  [1m[35m (136.0ms)[0m  commit transaction
+Migrating to CreateActivities (20130112060200)
+  [1m[36m (1.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  CREATE TABLE "activities" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "description" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.0ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20130112060200')[0m
+  [1m[35m (140.0ms)[0m  commit transaction
+Migrating to CreateReportPeriods (20130112060251)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (1.0ms)[0m  CREATE TABLE "report_periods" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "week_ending" date, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.0ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20130112060251')[0m
+  [1m[35m (139.0ms)[0m  commit transaction
+Migrating to CreateProjects (20130112060740)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (1.0ms)[0m  CREATE TABLE "projects" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "sponsor_id" integer, "project_code" varchar(255), "activity_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (1.0ms)[0m  [1mCREATE INDEX "index_projects_on_sponsor_id" ON "projects" ("sponsor_id")[0m
+  [1m[35m (0.0ms)[0m  CREATE INDEX "index_projects_on_activity_id" ON "projects" ("activity_id")
+  [1m[36m (0.0ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20130112060740')[0m
+  [1m[35m (137.0ms)[0m  commit transaction
+Migrating to CreateStatuses (20130112065534)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  CREATE TABLE "statuses" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "icon_url" varchar(255), "order" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.0ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20130112065534')[0m
+  [1m[35m (126.0ms)[0m  commit transaction
+Migrating to CreateStatusReports (20130112071716)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (1.0ms)[0m  CREATE TABLE "status_reports" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "project_id" integer, "highlight" text, "issues_risks" text, "next_steps" text, "remarks" text, "status_id" integer, "report_period_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.0ms)[0m  [1mCREATE INDEX "index_status_reports_on_project_id" ON "status_reports" ("project_id")[0m
+  [1m[35m (0.0ms)[0m  CREATE INDEX "index_status_reports_on_status_id" ON "status_reports" ("status_id")
+  [1m[36m (0.0ms)[0m  [1mCREATE INDEX "index_status_reports_on_report_period_id" ON "status_reports" ("report_period_id")[0m
+  [1m[35m (0.0ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20130112071716')
+  [1m[36m (159.0ms)[0m  [1mcommit transaction[0m
+Migrating to CreateDepartments (20130116085725)
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (1.0ms)[0m  [1mCREATE TABLE "departments" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (0.0ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20130116085725')
+  [1m[36m (260.0ms)[0m  [1mcommit transaction[0m
+Migrating to AddDepartmentToProject (20130116090242)
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mALTER TABLE "projects" ADD "department_id" integer[0m
+  [1m[35m (0.0ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20130116090242')
+  [1m[36m (241.0ms)[0m  [1mcommit transaction[0m
+Migrating to AddClosedToActivity (20130117041502)
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mALTER TABLE "activities" ADD "closed" boolean[0m
+  [1m[35m (0.0ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20130117041502')
+  [1m[36m (129.0ms)[0m  [1mcommit transaction[0m
+Migrating to CreateUsers (20130307021307)
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (1.0ms)[0m  [1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "email" varchar(255), "password_digest" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (0.0ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20130307021307')
+  [1m[36m (151.0ms)[0m  [1mcommit transaction[0m
+Migrating to AddRoleToUser (20130307040305)
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (1.0ms)[0m  [1mALTER TABLE "users" ADD "role" varchar(255)[0m
+  [1m[35mUser Exists (0.0ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."name" = 'admin' LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (16.0ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "name", "password_digest", "role", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Thu, 07 Nov 2013 15:32:08 UTC +00:00], ["email", nil], ["name", "admin"], ["password_digest", "$2a$10$QE8Up9EKIHG2X2cL/2DFz.yifVZsMrUsuaWP0ien9Rym.Dof5281i"], ["role", "pm"], ["updated_at", Thu, 07 Nov 2013 15:32:08 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20130307040305')
+  [1m[36m (187.0ms)[0m  [1mcommit transaction[0m
+Migrating to CreateRiskSummaries (20130308090528)
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (1.0ms)[0m  [1mCREATE TABLE "risk_summaries" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "project_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (0.0ms)[0m  ALTER TABLE "risk_summaries" ADD "riskfile_file_name" varchar(255)
+  [1m[36m (0.0ms)[0m  [1mALTER TABLE "risk_summaries" ADD "riskfile_content_type" varchar(255)[0m
+  [1m[35m (1.0ms)[0m  ALTER TABLE "risk_summaries" ADD "riskfile_file_size" integer
+  [1m[36m (0.0ms)[0m  [1mALTER TABLE "risk_summaries" ADD "riskfile_updated_at" datetime[0m
+  [1m[35m (0.0ms)[0m  CREATE INDEX "index_risk_summaries_on_project_id" ON "risk_summaries" ("project_id")
+  [1m[36m (0.0ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20130308090528')[0m
+  [1m[35m (137.0ms)[0m  commit transaction
+Migrating to CreateProjectTypes (20130312101551)
+  [1m[36m (1.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (1.0ms)[0m  CREATE TABLE "project_types" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.0ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20130312101551')[0m
+  [1m[35m (206.0ms)[0m  commit transaction
+Migrating to AddProjectTypeToProject (20130312101622)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (1.0ms)[0m  ALTER TABLE "projects" ADD "project_type_id" integer
+  [1m[36m (0.0ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20130312101622')[0m
+  [1m[35m (186.0ms)[0m  commit transaction
+Migrating to DropProjectCodeFromProjects (20130312102000)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (1.0ms)[0m  CREATE TEMPORARY TABLE "altered_projects" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "sponsor_id" integer, "project_code" varchar(255), "activity_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "department_id" integer, "project_type_id" integer) 
+  [1m[36m (0.0ms)[0m  [1mCREATE INDEX "temp_index_altered_projects_on_activity_id" ON "altered_projects" ("activity_id")[0m
+  [1m[35m (0.0ms)[0m  CREATE INDEX "temp_index_altered_projects_on_sponsor_id" ON "altered_projects" ("sponsor_id")
+  [1m[36m (0.0ms)[0m  [1mSELECT * FROM "projects"[0m
+  [1m[35m (1.0ms)[0m  DROP TABLE "projects"
+  [1m[36m (0.0ms)[0m  [1mCREATE TABLE "projects" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "sponsor_id" integer, "activity_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "department_id" integer, "project_type_id" integer) [0m
+  [1m[35m (1.0ms)[0m  CREATE INDEX "index_projects_on_sponsor_id" ON "projects" ("sponsor_id")
+  [1m[36m (0.0ms)[0m  [1mCREATE INDEX "index_projects_on_activity_id" ON "projects" ("activity_id")[0m
+  [1m[35m (0.0ms)[0m  SELECT * FROM "altered_projects"
+  [1m[36m (0.0ms)[0m  [1mDROP TABLE "altered_projects"[0m
+  [1m[35m (0.0ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20130312102000')
+  [1m[36m (140.0ms)[0m  [1mcommit transaction[0m
+Migrating to MakePMsIntoAdmins (20130312141409)
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mUPDATE "users" SET "role" = 'admin' WHERE "users"."id" IN (SELECT "users"."id" FROM "users" WHERE (role = 'pm') ORDER BY name)[0m
+  [1m[35m (0.0ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20130312141409')
+  [1m[36m (129.0ms)[0m  [1mcommit transaction[0m
+Migrating to AddInEpmToProject (20130313100414)
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mALTER TABLE "projects" ADD "in_epm" integer[0m
+  [1m[35m (0.0ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20130313100414')
+  [1m[36m (139.0ms)[0m  [1mcommit transaction[0m
+Migrating to RenameOrderToSortIndexOnStatus (20130313100531)
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (1.0ms)[0m  [1mCREATE TEMPORARY TABLE "altered_statuses" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "icon_url" varchar(255), "sort_index" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (0.0ms)[0m  SELECT * FROM "statuses"
+  [1m[36m (1.0ms)[0m  [1mDROP TABLE "statuses"[0m
+  [1m[35m (0.0ms)[0m  CREATE TABLE "statuses" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "icon_url" varchar(255), "sort_index" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.0ms)[0m  [1mSELECT * FROM "altered_statuses"[0m
+  [1m[35m (0.0ms)[0m  DROP TABLE "altered_statuses"
+  [1m[36m (0.0ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20130313100531')[0m
+  [1m[35m (137.0ms)[0m  commit transaction
+Migrating to CreateWebPages (20130318034221)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (1.0ms)[0m  CREATE TABLE "web_pages" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255), "description" varchar(255), "page_html" text, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.0ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20130318034221')[0m
+  [1m[35m (148.0ms)[0m  commit transaction
+Migrating to AddPmToProject (20131018012159)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (1.0ms)[0m  ALTER TABLE "projects" ADD "pm_id" integer
+  [1m[36m (0.0ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20131018012159')[0m
+  [1m[35m (131.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Connecting to database specified by database.yml
+  [1m[36m (1.0ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mActivity Exists (1.0ms)[0m  [1mSELECT 1 AS one FROM "activities" WHERE "activities"."name" = 'Pending' LIMIT 1[0m
+  [1m[35mSQL (4.0ms)[0m  INSERT INTO "activities" ("closed", "created_at", "description", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["closed", true], ["created_at", Thu, 07 Nov 2013 15:32:32 UTC +00:00], ["description", ""], ["name", "Pending"], ["updated_at", Thu, 07 Nov 2013 15:32:32 UTC +00:00]]
+  [1m[36m (134.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mActivity Exists (0.0ms)[0m  [1mSELECT 1 AS one FROM "activities" WHERE "activities"."name" = 'Hold' LIMIT 1[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "activities" ("closed", "created_at", "description", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["closed", true], ["created_at", Thu, 07 Nov 2013 15:32:32 UTC +00:00], ["description", ""], ["name", "Hold"], ["updated_at", Thu, 07 Nov 2013 15:32:32 UTC +00:00]]
+  [1m[36m (142.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mActivity Exists (0.0ms)[0m  [1mSELECT 1 AS one FROM "activities" WHERE "activities"."name" = 'Cancelled' LIMIT 1[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "activities" ("closed", "created_at", "description", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["closed", true], ["created_at", Thu, 07 Nov 2013 15:32:32 UTC +00:00], ["description", ""], ["name", "Cancelled"], ["updated_at", Thu, 07 Nov 2013 15:32:32 UTC +00:00]]
+  [1m[36m (141.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mActivity Exists (1.0ms)[0m  [1mSELECT 1 AS one FROM "activities" WHERE "activities"."name" = 'In-Flight' LIMIT 1[0m
+  [1m[35mSQL (2.0ms)[0m  INSERT INTO "activities" ("closed", "created_at", "description", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["closed", true], ["created_at", Thu, 07 Nov 2013 15:32:32 UTC +00:00], ["description", ""], ["name", "In-Flight"], ["updated_at", Thu, 07 Nov 2013 15:32:32 UTC +00:00]]
+  [1m[36m (151.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mActivity Exists (1.0ms)[0m  [1mSELECT 1 AS one FROM "activities" WHERE "activities"."name" = 'Complete' LIMIT 1[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "activities" ("closed", "created_at", "description", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["closed", true], ["created_at", Thu, 07 Nov 2013 15:32:32 UTC +00:00], ["description", ""], ["name", "Complete"], ["updated_at", Thu, 07 Nov 2013 15:32:32 UTC +00:00]]
+  [1m[36m (130.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mActivity Exists (0.0ms)[0m  [1mSELECT 1 AS one FROM "activities" WHERE "activities"."name" = 'Closed' LIMIT 1[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "activities" ("closed", "created_at", "description", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["closed", true], ["created_at", Thu, 07 Nov 2013 15:32:32 UTC +00:00], ["description", ""], ["name", "Closed"], ["updated_at", Thu, 07 Nov 2013 15:32:32 UTC +00:00]]
+  [1m[36m (141.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (1.0ms)[0m  [1mUPDATE "activities" SET "closed" = 'f', "updated_at" = '2013-11-07 15:32:32.925013' WHERE "activities"."id" = 1[0m
+  [1m[35m (130.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (1.0ms)[0m  UPDATE "activities" SET "closed" = 'f', "updated_at" = '2013-11-07 15:32:33.058052' WHERE "activities"."id" = 2
+  [1m[36m (143.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (1.0ms)[0m  [1mUPDATE "activities" SET "closed" = 'f', "updated_at" = '2013-11-07 15:32:33.203048' WHERE "activities"."id" = 4[0m
+  [1m[35m (141.0ms)[0m  commit transaction
+  [1m[36m (1.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (1.0ms)[0m  UPDATE "activities" SET "closed" = 'f', "updated_at" = '2013-11-07 15:32:33.347064' WHERE "activities"."id" = 5
+  [1m[36m (221.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "sponsors" ("created_at", "initials", "name", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", Thu, 07 Nov 2013 15:32:33 UTC +00:00], ["initials", "SR"], ["name", nil], ["updated_at", Thu, 07 Nov 2013 15:32:33 UTC +00:00]]
+  [1m[35m (152.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "sponsors" ("created_at", "initials", "name", "updated_at") VALUES (?, ?, ?, ?)  [["created_at", Thu, 07 Nov 2013 15:32:33 UTC +00:00], ["initials", "MH"], ["name", nil], ["updated_at", Thu, 07 Nov 2013 15:32:33 UTC +00:00]]
+  [1m[36m (143.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "sponsors" ("created_at", "initials", "name", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", Thu, 07 Nov 2013 15:32:33 UTC +00:00], ["initials", "DM"], ["name", nil], ["updated_at", Thu, 07 Nov 2013 15:32:33 UTC +00:00]]
+  [1m[35m (153.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "sponsors" ("created_at", "initials", "name", "updated_at") VALUES (?, ?, ?, ?)  [["created_at", Thu, 07 Nov 2013 15:32:34 UTC +00:00], ["initials", "MK"], ["name", nil], ["updated_at", Thu, 07 Nov 2013 15:32:34 UTC +00:00]]
+  [1m[36m (154.2ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "sponsors" ("created_at", "initials", "name", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", Thu, 07 Nov 2013 15:32:34 UTC +00:00], ["initials", "MLF"], ["name", nil], ["updated_at", Thu, 07 Nov 2013 15:32:34 UTC +00:00]]
+  [1m[35m (130.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "report_periods" ("created_at", "updated_at", "week_ending") VALUES (?, ?, ?)  [["created_at", Thu, 07 Nov 2013 15:32:34 UTC +00:00], ["updated_at", Thu, 07 Nov 2013 15:32:34 UTC +00:00], ["week_ending", Fri, 11 Oct 2013]]
+  [1m[36m (138.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "report_periods" ("created_at", "updated_at", "week_ending") VALUES (?, ?, ?)[0m  [["created_at", Thu, 07 Nov 2013 15:32:34 UTC +00:00], ["updated_at", Thu, 07 Nov 2013 15:32:34 UTC +00:00], ["week_ending", Fri, 18 Oct 2013]]
+  [1m[35m (129.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "report_periods" ("created_at", "updated_at", "week_ending") VALUES (?, ?, ?)  [["created_at", Thu, 07 Nov 2013 15:32:34 UTC +00:00], ["updated_at", Thu, 07 Nov 2013 15:32:34 UTC +00:00], ["week_ending", Fri, 25 Oct 2013]]
+  [1m[36m (209.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "report_periods" ("created_at", "updated_at", "week_ending") VALUES (?, ?, ?)[0m  [["created_at", Thu, 07 Nov 2013 15:32:34 UTC +00:00], ["updated_at", Thu, 07 Nov 2013 15:32:34 UTC +00:00], ["week_ending", Fri, 01 Nov 2013]]
+  [1m[35m (164.2ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "report_periods" ("created_at", "updated_at", "week_ending") VALUES (?, ?, ?)  [["created_at", Thu, 07 Nov 2013 15:32:35 UTC +00:00], ["updated_at", Thu, 07 Nov 2013 15:32:35 UTC +00:00], ["week_ending", Fri, 08 Nov 2013]]
+  [1m[36m (120.2ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "report_periods" ("created_at", "updated_at", "week_ending") VALUES (?, ?, ?)[0m  [["created_at", Thu, 07 Nov 2013 15:32:35 UTC +00:00], ["updated_at", Thu, 07 Nov 2013 15:32:35 UTC +00:00], ["week_ending", Fri, 15 Nov 2013]]
+  [1m[35m (140.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "report_periods" ("created_at", "updated_at", "week_ending") VALUES (?, ?, ?)  [["created_at", Thu, 07 Nov 2013 15:32:35 UTC +00:00], ["updated_at", Thu, 07 Nov 2013 15:32:35 UTC +00:00], ["week_ending", Fri, 22 Nov 2013]]
+  [1m[36m (132.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (1.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "report_periods" ("created_at", "updated_at", "week_ending") VALUES (?, ?, ?)[0m  [["created_at", Thu, 07 Nov 2013 15:32:35 UTC +00:00], ["updated_at", Thu, 07 Nov 2013 15:32:35 UTC +00:00], ["week_ending", Fri, 29 Nov 2013]]
+  [1m[35m (141.1ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "report_periods" ("created_at", "updated_at", "week_ending") VALUES (?, ?, ?)  [["created_at", Thu, 07 Nov 2013 15:32:35 UTC +00:00], ["updated_at", Thu, 07 Nov 2013 15:32:35 UTC +00:00], ["week_ending", Fri, 06 Dec 2013]]
+  [1m[36m (164.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (1.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "report_periods" ("created_at", "updated_at", "week_ending") VALUES (?, ?, ?)[0m  [["created_at", Thu, 07 Nov 2013 15:32:35 UTC +00:00], ["updated_at", Thu, 07 Nov 2013 15:32:35 UTC +00:00], ["week_ending", Fri, 13 Dec 2013]]
+  [1m[35m (130.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "report_periods" ("created_at", "updated_at", "week_ending") VALUES (?, ?, ?)  [["created_at", Thu, 07 Nov 2013 15:32:35 UTC +00:00], ["updated_at", Thu, 07 Nov 2013 15:32:35 UTC +00:00], ["week_ending", Fri, 20 Dec 2013]]
+  [1m[36m (144.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "report_periods" ("created_at", "updated_at", "week_ending") VALUES (?, ?, ?)[0m  [["created_at", Thu, 07 Nov 2013 15:32:36 UTC +00:00], ["updated_at", Thu, 07 Nov 2013 15:32:36 UTC +00:00], ["week_ending", Fri, 27 Dec 2013]]
+  [1m[35m (152.2ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "report_periods" ("created_at", "updated_at", "week_ending") VALUES (?, ?, ?)  [["created_at", Thu, 07 Nov 2013 15:32:36 UTC +00:00], ["updated_at", Thu, 07 Nov 2013 15:32:36 UTC +00:00], ["week_ending", Fri, 03 Jan 2014]]
+  [1m[36m (143.2ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "report_periods" ("created_at", "updated_at", "week_ending") VALUES (?, ?, ?)[0m  [["created_at", Thu, 07 Nov 2013 15:32:36 UTC +00:00], ["updated_at", Thu, 07 Nov 2013 15:32:36 UTC +00:00], ["week_ending", Fri, 10 Jan 2014]]
+  [1m[35m (232.3ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "report_periods" ("created_at", "updated_at", "week_ending") VALUES (?, ?, ?)  [["created_at", Thu, 07 Nov 2013 15:32:36 UTC +00:00], ["updated_at", Thu, 07 Nov 2013 15:32:36 UTC +00:00], ["week_ending", Fri, 17 Jan 2014]]
+  [1m[36m (126.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "report_periods" ("created_at", "updated_at", "week_ending") VALUES (?, ?, ?)[0m  [["created_at", Thu, 07 Nov 2013 15:32:36 UTC +00:00], ["updated_at", Thu, 07 Nov 2013 15:32:36 UTC +00:00], ["week_ending", Fri, 24 Jan 2014]]
+  [1m[35m (132.6ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "report_periods" ("created_at", "updated_at", "week_ending") VALUES (?, ?, ?)  [["created_at", Thu, 07 Nov 2013 15:32:36 UTC +00:00], ["updated_at", Thu, 07 Nov 2013 15:32:36 UTC +00:00], ["week_ending", Fri, 31 Jan 2014]]
+  [1m[36m (131.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "report_periods" ("created_at", "updated_at", "week_ending") VALUES (?, ?, ?)[0m  [["created_at", Thu, 07 Nov 2013 15:32:36 UTC +00:00], ["updated_at", Thu, 07 Nov 2013 15:32:36 UTC +00:00], ["week_ending", Fri, 07 Feb 2014]]
+  [1m[35m (142.2ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "report_periods" ("created_at", "updated_at", "week_ending") VALUES (?, ?, ?)  [["created_at", Thu, 07 Nov 2013 15:32:37 UTC +00:00], ["updated_at", Thu, 07 Nov 2013 15:32:37 UTC +00:00], ["week_ending", Fri, 14 Feb 2014]]
+  [1m[36m (130.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "report_periods" ("created_at", "updated_at", "week_ending") VALUES (?, ?, ?)[0m  [["created_at", Thu, 07 Nov 2013 15:32:37 UTC +00:00], ["updated_at", Thu, 07 Nov 2013 15:32:37 UTC +00:00], ["week_ending", Fri, 21 Feb 2014]]
+  [1m[35m (154.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "report_periods" ("created_at", "updated_at", "week_ending") VALUES (?, ?, ?)  [["created_at", Thu, 07 Nov 2013 15:32:37 UTC +00:00], ["updated_at", Thu, 07 Nov 2013 15:32:37 UTC +00:00], ["week_ending", Fri, 28 Feb 2014]]
+  [1m[36m (240.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "report_periods" ("created_at", "updated_at", "week_ending") VALUES (?, ?, ?)[0m  [["created_at", Thu, 07 Nov 2013 15:32:37 UTC +00:00], ["updated_at", Thu, 07 Nov 2013 15:32:37 UTC +00:00], ["week_ending", Fri, 07 Mar 2014]]
+  [1m[35m (154.0ms)[0m  commit transaction
+  [1m[36m (1.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "report_periods" ("created_at", "updated_at", "week_ending") VALUES (?, ?, ?)  [["created_at", Thu, 07 Nov 2013 15:32:37 UTC +00:00], ["updated_at", Thu, 07 Nov 2013 15:32:37 UTC +00:00], ["week_ending", Fri, 14 Mar 2014]]
+  [1m[36m (141.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "report_periods" ("created_at", "updated_at", "week_ending") VALUES (?, ?, ?)[0m  [["created_at", Thu, 07 Nov 2013 15:32:37 UTC +00:00], ["updated_at", Thu, 07 Nov 2013 15:32:37 UTC +00:00], ["week_ending", Fri, 21 Mar 2014]]
+  [1m[35m (133.0ms)[0m  commit transaction
+  [1m[36m (1.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "report_periods" ("created_at", "updated_at", "week_ending") VALUES (?, ?, ?)  [["created_at", Thu, 07 Nov 2013 15:32:38 UTC +00:00], ["updated_at", Thu, 07 Nov 2013 15:32:38 UTC +00:00], ["week_ending", Fri, 28 Mar 2014]]
+  [1m[36m (141.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "report_periods" ("created_at", "updated_at", "week_ending") VALUES (?, ?, ?)[0m  [["created_at", Thu, 07 Nov 2013 15:32:38 UTC +00:00], ["updated_at", Thu, 07 Nov 2013 15:32:38 UTC +00:00], ["week_ending", Fri, 04 Apr 2014]]
+  [1m[35m (143.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "report_periods" ("created_at", "updated_at", "week_ending") VALUES (?, ?, ?)  [["created_at", Thu, 07 Nov 2013 15:32:38 UTC +00:00], ["updated_at", Thu, 07 Nov 2013 15:32:38 UTC +00:00], ["week_ending", Fri, 11 Apr 2014]]
+  [1m[36m (152.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (1.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "report_periods" ("created_at", "updated_at", "week_ending") VALUES (?, ?, ?)[0m  [["created_at", Thu, 07 Nov 2013 15:32:38 UTC +00:00], ["updated_at", Thu, 07 Nov 2013 15:32:38 UTC +00:00], ["week_ending", Fri, 18 Apr 2014]]
+  [1m[35m (253.0ms)[0m  commit transaction
+  [1m[36m (1.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "report_periods" ("created_at", "updated_at", "week_ending") VALUES (?, ?, ?)  [["created_at", Thu, 07 Nov 2013 15:32:38 UTC +00:00], ["updated_at", Thu, 07 Nov 2013 15:32:38 UTC +00:00], ["week_ending", Fri, 25 Apr 2014]]
+  [1m[36m (174.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "report_periods" ("created_at", "updated_at", "week_ending") VALUES (?, ?, ?)[0m  [["created_at", Thu, 07 Nov 2013 15:32:38 UTC +00:00], ["updated_at", Thu, 07 Nov 2013 15:32:38 UTC +00:00], ["week_ending", Fri, 02 May 2014]]
+  [1m[35m (164.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "report_periods" ("created_at", "updated_at", "week_ending") VALUES (?, ?, ?)  [["created_at", Thu, 07 Nov 2013 15:32:39 UTC +00:00], ["updated_at", Thu, 07 Nov 2013 15:32:39 UTC +00:00], ["week_ending", Fri, 09 May 2014]]
+  [1m[36m (152.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "report_periods" ("created_at", "updated_at", "week_ending") VALUES (?, ?, ?)[0m  [["created_at", Thu, 07 Nov 2013 15:32:39 UTC +00:00], ["updated_at", Thu, 07 Nov 2013 15:32:39 UTC +00:00], ["week_ending", Fri, 16 May 2014]]
+  [1m[35m (144.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "report_periods" ("created_at", "updated_at", "week_ending") VALUES (?, ?, ?)  [["created_at", Thu, 07 Nov 2013 15:32:39 UTC +00:00], ["updated_at", Thu, 07 Nov 2013 15:32:39 UTC +00:00], ["week_ending", Fri, 23 May 2014]]
+  [1m[36m (205.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "report_periods" ("created_at", "updated_at", "week_ending") VALUES (?, ?, ?)[0m  [["created_at", Thu, 07 Nov 2013 15:32:39 UTC +00:00], ["updated_at", Thu, 07 Nov 2013 15:32:39 UTC +00:00], ["week_ending", Fri, 30 May 2014]]
+  [1m[35m (156.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "report_periods" ("created_at", "updated_at", "week_ending") VALUES (?, ?, ?)  [["created_at", Thu, 07 Nov 2013 15:32:39 UTC +00:00], ["updated_at", Thu, 07 Nov 2013 15:32:39 UTC +00:00], ["week_ending", Fri, 06 Jun 2014]]
+  [1m[36m (153.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "report_periods" ("created_at", "updated_at", "week_ending") VALUES (?, ?, ?)[0m  [["created_at", Thu, 07 Nov 2013 15:32:39 UTC +00:00], ["updated_at", Thu, 07 Nov 2013 15:32:39 UTC +00:00], ["week_ending", Fri, 13 Jun 2014]]
+  [1m[35m (231.3ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "report_periods" ("created_at", "updated_at", "week_ending") VALUES (?, ?, ?)  [["created_at", Thu, 07 Nov 2013 15:32:40 UTC +00:00], ["updated_at", Thu, 07 Nov 2013 15:32:40 UTC +00:00], ["week_ending", Fri, 20 Jun 2014]]
+  [1m[36m (219.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "report_periods" ("created_at", "updated_at", "week_ending") VALUES (?, ?, ?)[0m  [["created_at", Thu, 07 Nov 2013 15:32:40 UTC +00:00], ["updated_at", Thu, 07 Nov 2013 15:32:40 UTC +00:00], ["week_ending", Fri, 27 Jun 2014]]
+  [1m[35m (177.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "report_periods" ("created_at", "updated_at", "week_ending") VALUES (?, ?, ?)  [["created_at", Thu, 07 Nov 2013 15:32:40 UTC +00:00], ["updated_at", Thu, 07 Nov 2013 15:32:40 UTC +00:00], ["week_ending", Fri, 04 Jul 2014]]
+  [1m[36m (154.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "report_periods" ("created_at", "updated_at", "week_ending") VALUES (?, ?, ?)[0m  [["created_at", Thu, 07 Nov 2013 15:32:40 UTC +00:00], ["updated_at", Thu, 07 Nov 2013 15:32:40 UTC +00:00], ["week_ending", Fri, 11 Jul 2014]]
+  [1m[35m (140.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "report_periods" ("created_at", "updated_at", "week_ending") VALUES (?, ?, ?)  [["created_at", Thu, 07 Nov 2013 15:32:40 UTC +00:00], ["updated_at", Thu, 07 Nov 2013 15:32:40 UTC +00:00], ["week_ending", Fri, 18 Jul 2014]]
+  [1m[36m (142.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "report_periods" ("created_at", "updated_at", "week_ending") VALUES (?, ?, ?)[0m  [["created_at", Thu, 07 Nov 2013 15:32:41 UTC +00:00], ["updated_at", Thu, 07 Nov 2013 15:32:41 UTC +00:00], ["week_ending", Fri, 25 Jul 2014]]
+  [1m[35m (143.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "report_periods" ("created_at", "updated_at", "week_ending") VALUES (?, ?, ?)  [["created_at", Thu, 07 Nov 2013 15:32:41 UTC +00:00], ["updated_at", Thu, 07 Nov 2013 15:32:41 UTC +00:00], ["week_ending", Fri, 01 Aug 2014]]
+  [1m[36m (141.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (1.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "report_periods" ("created_at", "updated_at", "week_ending") VALUES (?, ?, ?)[0m  [["created_at", Thu, 07 Nov 2013 15:32:41 UTC +00:00], ["updated_at", Thu, 07 Nov 2013 15:32:41 UTC +00:00], ["week_ending", Fri, 08 Aug 2014]]
+  [1m[35m (143.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "report_periods" ("created_at", "updated_at", "week_ending") VALUES (?, ?, ?)  [["created_at", Thu, 07 Nov 2013 15:32:41 UTC +00:00], ["updated_at", Thu, 07 Nov 2013 15:32:41 UTC +00:00], ["week_ending", Fri, 15 Aug 2014]]
+  [1m[36m (220.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "report_periods" ("created_at", "updated_at", "week_ending") VALUES (?, ?, ?)[0m  [["created_at", Thu, 07 Nov 2013 15:32:41 UTC +00:00], ["updated_at", Thu, 07 Nov 2013 15:32:41 UTC +00:00], ["week_ending", Fri, 22 Aug 2014]]
+  [1m[35m (243.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "report_periods" ("created_at", "updated_at", "week_ending") VALUES (?, ?, ?)  [["created_at", Thu, 07 Nov 2013 15:32:41 UTC +00:00], ["updated_at", Thu, 07 Nov 2013 15:32:41 UTC +00:00], ["week_ending", Fri, 29 Aug 2014]]
+  [1m[36m (230.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "report_periods" ("created_at", "updated_at", "week_ending") VALUES (?, ?, ?)[0m  [["created_at", Thu, 07 Nov 2013 15:32:42 UTC +00:00], ["updated_at", Thu, 07 Nov 2013 15:32:42 UTC +00:00], ["week_ending", Fri, 05 Sep 2014]]
+  [1m[35m (141.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "report_periods" ("created_at", "updated_at", "week_ending") VALUES (?, ?, ?)  [["created_at", Thu, 07 Nov 2013 15:32:42 UTC +00:00], ["updated_at", Thu, 07 Nov 2013 15:32:42 UTC +00:00], ["week_ending", Fri, 12 Sep 2014]]
+  [1m[36m (144.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "report_periods" ("created_at", "updated_at", "week_ending") VALUES (?, ?, ?)[0m  [["created_at", Thu, 07 Nov 2013 15:32:42 UTC +00:00], ["updated_at", Thu, 07 Nov 2013 15:32:42 UTC +00:00], ["week_ending", Fri, 19 Sep 2014]]
+  [1m[35m (141.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "report_periods" ("created_at", "updated_at", "week_ending") VALUES (?, ?, ?)  [["created_at", Thu, 07 Nov 2013 15:32:42 UTC +00:00], ["updated_at", Thu, 07 Nov 2013 15:32:42 UTC +00:00], ["week_ending", Fri, 26 Sep 2014]]
+  [1m[36m (156.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (3.0ms)[0m  [1mINSERT INTO "report_periods" ("created_at", "updated_at", "week_ending") VALUES (?, ?, ?)[0m  [["created_at", Thu, 07 Nov 2013 15:32:42 UTC +00:00], ["updated_at", Thu, 07 Nov 2013 15:32:42 UTC +00:00], ["week_ending", Fri, 03 Oct 2014]]
+  [1m[35m (126.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "statuses" ("created_at", "icon_url", "name", "sort_index", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Thu, 07 Nov 2013 15:32:42 UTC +00:00], ["icon_url", "good.png"], ["name", "good"], ["sort_index", 1], ["updated_at", Thu, 07 Nov 2013 15:32:42 UTC +00:00]]
+  [1m[36m (209.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "statuses" ("created_at", "icon_url", "name", "sort_index", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Thu, 07 Nov 2013 15:32:43 UTC +00:00], ["icon_url", "neutral.png"], ["name", "neutral"], ["sort_index", 2], ["updated_at", Thu, 07 Nov 2013 15:32:43 UTC +00:00]]
+  [1m[35m (129.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "statuses" ("created_at", "icon_url", "name", "sort_index", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Thu, 07 Nov 2013 15:32:43 UTC +00:00], ["icon_url", "bad.png"], ["name", "bad"], ["sort_index", 3], ["updated_at", Thu, 07 Nov 2013 15:32:43 UTC +00:00]]
+  [1m[36m (142.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "departments" ("created_at", "name", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", Thu, 07 Nov 2013 15:32:43 UTC +00:00], ["name", "IT"], ["updated_at", Thu, 07 Nov 2013 15:32:43 UTC +00:00]]
+  [1m[35m (161.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "departments" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", Thu, 07 Nov 2013 15:32:43 UTC +00:00], ["name", "SID"], ["updated_at", Thu, 07 Nov 2013 15:32:43 UTC +00:00]]
+  [1m[36m (154.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "departments" ("created_at", "name", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", Thu, 07 Nov 2013 15:32:43 UTC +00:00], ["name", "MBS"], ["updated_at", Thu, 07 Nov 2013 15:32:43 UTC +00:00]]
+  [1m[35m (141.1ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "project_types" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", Thu, 07 Nov 2013 15:32:43 UTC +00:00], ["name", "Moo"], ["updated_at", Thu, 07 Nov 2013 15:32:43 UTC +00:00]]
+  [1m[36m (132.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (1.0ms)[0m  begin transaction
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "project_types" ("created_at", "name", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", Thu, 07 Nov 2013 15:32:43 UTC +00:00], ["name", "Woof!"], ["updated_at", Thu, 07 Nov 2013 15:32:43 UTC +00:00]]
+  [1m[35m (129.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mProject Exists (0.0ms)[0m  SELECT 1 AS one FROM "projects" WHERE "projects"."name" = 'SIRIS Interim' LIMIT 1
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "projects" ("activity_id", "created_at", "department_id", "in_epm", "name", "pm_id", "project_type_id", "sponsor_id", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["activity_id", 4], ["created_at", Thu, 07 Nov 2013 15:32:44 UTC +00:00], ["department_id", 2], ["in_epm", nil], ["name", "SIRIS Interim"], ["pm_id", nil], ["project_type_id", 1], ["sponsor_id", 1], ["updated_at", Thu, 07 Nov 2013 15:32:44 UTC +00:00]]
+  [1m[35m (186.2ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mProject Exists (0.0ms)[0m  SELECT 1 AS one FROM "projects" WHERE "projects"."name" = 'Vessel KPIs' LIMIT 1
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "projects" ("activity_id", "created_at", "department_id", "in_epm", "name", "pm_id", "project_type_id", "sponsor_id", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["activity_id", 5], ["created_at", Thu, 07 Nov 2013 15:32:44 UTC +00:00], ["department_id", 2], ["in_epm", nil], ["name", "Vessel KPIs"], ["pm_id", nil], ["project_type_id", 2], ["sponsor_id", 1], ["updated_at", Thu, 07 Nov 2013 15:32:44 UTC +00:00]]
+  [1m[35m (161.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mProject Exists (0.0ms)[0m  SELECT 1 AS one FROM "projects" WHERE "projects"."name" = 'Autoquotation' LIMIT 1
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "projects" ("activity_id", "created_at", "department_id", "in_epm", "name", "pm_id", "project_type_id", "sponsor_id", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["activity_id", 4], ["created_at", Thu, 07 Nov 2013 15:32:44 UTC +00:00], ["department_id", 3], ["in_epm", nil], ["name", "Autoquotation"], ["pm_id", nil], ["project_type_id", 1], ["sponsor_id", 2], ["updated_at", Thu, 07 Nov 2013 15:32:44 UTC +00:00]]
+  [1m[35m (142.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "status_reports" ("created_at", "highlight", "issues_risks", "next_steps", "project_id", "remarks", "report_period_id", "status_id", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)  [["created_at", Thu, 07 Nov 2013 15:32:44 UTC +00:00], ["highlight", "<ul>\r\n\t<li>Some</li>\r\n\t<li>Highlight</li>\r\n</ul>\r\n"], ["issues_risks", "<ol>\r\n\t<li>Big Risk</li>\r\n\t<li>Little Risk</li>\r\n</..."], ["next_steps", "<ol>\r\n\t<li>Do this, then...</li>\r\n\t<li>Do that</li>..."], ["project_id", 1], ["remarks", "<p>Iggle piggle, iggle onk says</p>\r\n\r\n<blockquote>..."], ["report_period_id", 1], ["status_id", 1], ["updated_at", Thu, 07 Nov 2013 15:32:44 UTC +00:00]]
+  [1m[36m (259.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (1.0ms)[0m  begin transaction
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "status_reports" ("created_at", "highlight", "issues_risks", "next_steps", "project_id", "remarks", "report_period_id", "status_id", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["created_at", Thu, 07 Nov 2013 15:32:44 UTC +00:00], ["highlight", "<ul>\r\n\t<li>Some</li>\r\n\t<li>Highlight</li>\r\n</ul>\r\n"], ["issues_risks", "<ol>\r\n\t<li>Big Risk</li>\r\n\t<li>Little Risk</li>\r\n</..."], ["next_steps", "<ol>\r\n\t<li>Do this, then...</li>\r\n\t<li>Do that</li>..."], ["project_id", 1], ["remarks", "<p>Iggle piggle, iggle onk says</p>\r\n\r\n<blockquote>..."], ["report_period_id", 2], ["status_id", 2], ["updated_at", Thu, 07 Nov 2013 15:32:44 UTC +00:00]]
+  [1m[35m (278.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "status_reports" ("created_at", "highlight", "issues_risks", "next_steps", "project_id", "remarks", "report_period_id", "status_id", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)  [["created_at", Thu, 07 Nov 2013 15:32:45 UTC +00:00], ["highlight", "<ul>\r\n\t<li>Some</li>\r\n\t<li>Highlight\r\n\t<ul>\r\n\t\t<li>..."], ["issues_risks", "<p><strong>OH NO It&#39;s gone totally <span style=..."], ["next_steps", "<ol>\r\n\t<li>Do this, then...</li>\r\n\t<li>Do that</li>..."], ["project_id", 1], ["remarks", "<p>Iggle piggle, iggle onk says</p>\r\n\r\n<blockquote>..."], ["report_period_id", 3], ["status_id", 3], ["updated_at", Thu, 07 Nov 2013 15:32:45 UTC +00:00]]
+  [1m[36m (209.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (1.0ms)[0m  begin transaction
+  [1m[36mUser Exists (1.0ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."name" = 'hthngoc' LIMIT 1[0m
+Binary data inserted for `string` type on column `password_digest`
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "users" ("created_at", "email", "name", "password_digest", "role", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", Thu, 07 Nov 2013 15:32:45 UTC +00:00], ["email", "hthngoc@tma.com.vn"], ["name", "hthngoc"], ["password_digest", "$2a$10$qfmaeR673mnjpQFrE3d1P.C3Uvsv86gLCozjoKxGMzb7bxTc87Vam"], ["role", "admin"], ["updated_at", Thu, 07 Nov 2013 15:32:45 UTC +00:00]]
+  [1m[36m (223.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mUser Exists (1.0ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."name" = 'pcg' LIMIT 1[0m
+Binary data inserted for `string` type on column `password_digest`
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "users" ("created_at", "email", "name", "password_digest", "role", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", Thu, 07 Nov 2013 15:32:45 UTC +00:00], ["email", "pcg@wallem.com"], ["name", "pcg"], ["password_digest", "$2a$10$flMc0FVVsrSpAQQPN2C.JurzQRRWlrVR1oacNF4wDKh9S6vPYFEYW"], ["role", "admin"], ["updated_at", Thu, 07 Nov 2013 15:32:45 UTC +00:00]]
+  [1m[36m (148.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mUser Exists (0.0ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."name" = 'sc' LIMIT 1[0m
+Binary data inserted for `string` type on column `password_digest`
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "users" ("created_at", "email", "name", "password_digest", "role", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", Thu, 07 Nov 2013 15:32:46 UTC +00:00], ["email", "sc@wallem.com"], ["name", "sc"], ["password_digest", "$2a$10$I63V.WPQ153qv5Pwtoj0K.RHdegxepCb8MWSRMPWLUvmhBaKNqR0O"], ["role", "admin"], ["updated_at", Thu, 07 Nov 2013 15:32:46 UTC +00:00]]
+  [1m[36m (155.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mUser Exists (1.0ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."name" = 'dathi' LIMIT 1[0m
+Binary data inserted for `string` type on column `password_digest`
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "users" ("created_at", "email", "name", "password_digest", "role", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", Thu, 07 Nov 2013 15:32:46 UTC +00:00], ["email", "dathi@tma.com.vn"], ["name", "dathi"], ["password_digest", "$2a$10$an66fQltev3nLMF3xmSzyevLnuzZVulTn4Licj2qtVMxB8aSCNEMS"], ["role", "pm"], ["updated_at", Thu, 07 Nov 2013 15:32:46 UTC +00:00]]
+  [1m[36m (163.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mUser Exists (0.0ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."name" = 'rcwh' LIMIT 1[0m
+Binary data inserted for `string` type on column `password_digest`
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "users" ("created_at", "email", "name", "password_digest", "role", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", Thu, 07 Nov 2013 15:32:46 UTC +00:00], ["email", "rcwh@wallem.com"], ["name", "rcwh"], ["password_digest", "$2a$10$0byHgKUFvS5hyRwgE3fx9uztqgknUsZiGOCiMt3Ck0l.lJTHelBQe"], ["role", "pm"], ["updated_at", Thu, 07 Nov 2013 15:32:46 UTC +00:00]]
+  [1m[36m (155.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mUser Exists (0.0ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."name" = 'lorh' LIMIT 1[0m
+Binary data inserted for `string` type on column `password_digest`
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "users" ("created_at", "email", "name", "password_digest", "role", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", Thu, 07 Nov 2013 15:32:46 UTC +00:00], ["email", "lorh@wallem.com"], ["name", "lorh"], ["password_digest", "$2a$10$Rbo91PgFM.HHMG61xFpnOu/.hk1hnW2RQItojvjs2KLVglQLymmtK"], ["role", "ro-full"], ["updated_at", Thu, 07 Nov 2013 15:32:46 UTC +00:00]]
+  [1m[36m (209.2ms)[0m  [1mcommit transaction[0m
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-07 22:33:57 +0700
+Processing by WelcomeController#index as HTML
+Redirected to http://localhost:3000/sessions
+Filter chain halted as :authenticated_user rendered or redirected
+Completed 302 Found in 2030ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/sessions" for 127.0.0.1 at 2013-11-07 22:34:02 +0700
+Processing by SessionsController#index as HTML
+Redirected to http://localhost:3047/home/login?tkfrom=http://localhost:3000/sessions
+Completed 302 Found in 36ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/sessions?tkid=aaid17B368D38508785C6744B13AA7D0E06660&tkallow=False" for 127.0.0.1 at 2013-11-07 22:34:19 +0700
+Processing by SessionsController#index as HTML
+  Parameters: {"tkid"=>"aaid17B368D38508785C6744B13AA7D0E06660", "tkallow"=>"False"}
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."name" = 'Cuong Do' ORDER BY name LIMIT 1[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 17123ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-07 22:34:36 +0700
+Processing by WelcomeController#index as HTML
+Redirected to http://localhost:3000/sessions
+Filter chain halted as :authenticated_user rendered or redirected
+Completed 302 Found in 11179ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/sessions" for 127.0.0.1 at 2013-11-07 22:34:47 +0700
+Processing by SessionsController#index as HTML
+Redirected to http://localhost:3047/home/login?tkfrom=http://localhost:3000/sessions
+Completed 302 Found in 15ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/sessions?tkid=aaid17FA1A5849771F5B012CB9ADE980BB1F40&tkallow=False" for 127.0.0.1 at 2013-11-07 22:36:18 +0700
+Processing by SessionsController#index as HTML
+  Parameters: {"tkid"=>"aaid17FA1A5849771F5B012CB9ADE980BB1F40", "tkallow"=>"False"}
+  [1m[35mUser Load (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."name" = 'hthngoc' ORDER BY name LIMIT 1
+Redirected to http://localhost:3000/
+Completed 302 Found in 48184ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-07 22:37:06 +0700
+Processing by WelcomeController#index as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY name LIMIT 1[0m  [["id", 2]]
+  Rendered welcome/index.html.erb within layouts/application (2.0ms)
+  Rendered shared/_navigation.html.erb (1.0ms)
+Completed 200 OK in 1768ms (Views: 51.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-07 22:37:08 +0700
+Served asset /application.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery.ui.core.css?body=1" for 127.0.0.1 at 2013-11-07 22:37:08 +0700
+Served asset /jquery.ui.core.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.theme.css?body=1" for 127.0.0.1 at 2013-11-07 22:37:08 +0700
+Served asset /jquery.ui.theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dataTables/jquery.dataTables.css?body=1" for 127.0.0.1 at 2013-11-07 22:37:08 +0700
+Served asset /dataTables/jquery.dataTables.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dataTables/src/demo_table_jui.css?body=1" for 127.0.0.1 at 2013-11-07 22:37:08 +0700
+Served asset /dataTables/src/demo_table_jui.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/activities.css?body=1" for 127.0.0.1 at 2013-11-07 22:37:08 +0700
+Served asset /activities.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/common.css?body=1" for 127.0.0.1 at 2013-11-07 22:37:08 +0700
+Served asset /common.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/departments.css?body=1" for 127.0.0.1 at 2013-11-07 22:37:08 +0700
+Served asset /departments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pipeline.css?body=1" for 127.0.0.1 at 2013-11-07 22:37:08 +0700
+Served asset /pipeline.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/project_types.css?body=1" for 127.0.0.1 at 2013-11-07 22:37:08 +0700
+Served asset /project_types.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2013-11-07 22:37:08 +0700
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/report_periods.css?body=1" for 127.0.0.1 at 2013-11-07 22:37:08 +0700
+Served asset /report_periods.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/risk_summaries.css?body=1" for 127.0.0.1 at 2013-11-07 22:37:08 +0700
+Served asset /risk_summaries.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-11-07 22:37:08 +0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-11-07 22:37:08 +0700
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sponsors.css?body=1" for 127.0.0.1 at 2013-11-07 22:37:08 +0700
+Served asset /sponsors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/status_reports.css?body=1" for 127.0.0.1 at 2013-11-07 22:37:08 +0700
+Served asset /status_reports.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/statuses.css?body=1" for 127.0.0.1 at 2013-11-07 22:37:09 +0700
+Served asset /statuses.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-11-07 22:37:09 +0700
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/web_pages.css?body=1" for 127.0.0.1 at 2013-11-07 22:37:09 +0700
+Served asset /web_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-11-07 22:37:09 +0700
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-07 22:37:09 +0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-11-07 22:37:09 +0700
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/epm_icon.png" for 127.0.0.1 at 2013-11-07 22:37:09 +0700
+Served asset /epm_icon.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/wallemlogo.gif" for 127.0.0.1 at 2013-11-07 22:37:09 +0700
+Served asset /wallemlogo.gif - 304 Not Modified (0ms)
+
+
+Started GET "/assets/banner.jpg" for 127.0.0.1 at 2013-11-07 22:37:09 +0700
+Served asset /banner.jpg - 304 Not Modified (1ms)
+
+
+Started GET "/assets/Project%20Status%20BG.JPG" for 127.0.0.1 at 2013-11-07 22:37:09 +0700
+Served asset /Project%20Status%20BG.JPG - 304 Not Modified (0ms)
+
+
+Started GET "/archive" for 127.0.0.1 at 2013-11-07 22:40:17 +0700
+Processing by PipelineController#archive as HTML
+Compiled dataTables/jquery.dataTables.js  (3ms)  (pid 7848)
+Compiled datatable.js  (56ms)  (pid 7848)
+  Rendered shared/_pdfable.html.erb (1.0ms)
+  Rendered risk_summaries/_risk_summary_link.html.erb (1.0ms)
+  [1m[35mProject Load (1.0ms)[0m  SELECT "projects".* FROM "projects" INNER JOIN "activities" ON "activities"."id" = "projects"."activity_id" WHERE (activities.closed = 't')
+  Rendered pipeline/index.html.erb within layouts/application (143.0ms)
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY name LIMIT 1[0m  [["id", 2]]
+  Rendered shared/_navigation.html.erb (2.0ms)
+Completed 200 OK in 12669ms (Views: 174.0ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/assets/jquery.ui.core.css?body=1" for 127.0.0.1 at 2013-11-07 22:40:30 +0700
+Served asset /jquery.ui.core.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dataTables/jquery.dataTables.css?body=1" for 127.0.0.1 at 2013-11-07 22:40:30 +0700
+Served asset /dataTables/jquery.dataTables.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.theme.css?body=1" for 127.0.0.1 at 2013-11-07 22:40:30 +0700
+Served asset /jquery.ui.theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dataTables/src/demo_table_jui.css?body=1" for 127.0.0.1 at 2013-11-07 22:40:30 +0700
+Served asset /dataTables/src/demo_table_jui.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-07 22:40:30 +0700
+Served asset /application.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/activities.css?body=1" for 127.0.0.1 at 2013-11-07 22:40:30 +0700
+Served asset /activities.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/common.css?body=1" for 127.0.0.1 at 2013-11-07 22:40:31 +0700
+Served asset /common.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/departments.css?body=1" for 127.0.0.1 at 2013-11-07 22:40:31 +0700
+Served asset /departments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pipeline.css?body=1" for 127.0.0.1 at 2013-11-07 22:40:31 +0700
+Served asset /pipeline.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/project_types.css?body=1" for 127.0.0.1 at 2013-11-07 22:40:31 +0700
+Served asset /project_types.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2013-11-07 22:40:31 +0700
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/report_periods.css?body=1" for 127.0.0.1 at 2013-11-07 22:40:31 +0700
+Served asset /report_periods.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/risk_summaries.css?body=1" for 127.0.0.1 at 2013-11-07 22:40:31 +0700
+Served asset /risk_summaries.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-11-07 22:40:31 +0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-11-07 22:40:31 +0700
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sponsors.css?body=1" for 127.0.0.1 at 2013-11-07 22:40:31 +0700
+Served asset /sponsors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/status_reports.css?body=1" for 127.0.0.1 at 2013-11-07 22:40:31 +0700
+Served asset /status_reports.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/statuses.css?body=1" for 127.0.0.1 at 2013-11-07 22:40:31 +0700
+Served asset /statuses.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-11-07 22:40:31 +0700
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/web_pages.css?body=1" for 127.0.0.1 at 2013-11-07 22:40:31 +0700
+Served asset /web_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-11-07 22:40:31 +0700
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-07 22:40:31 +0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dataTables/jquery.dataTables.js?body=1" for 127.0.0.1 at 2013-11-07 22:40:31 +0700
+Served asset /dataTables/jquery.dataTables.js - 200 OK (24ms)
+
+
+Started GET "/assets/datatable.js?body=1" for 127.0.0.1 at 2013-11-07 22:40:31 +0700
+Served asset /datatable.js - 200 OK (14ms)
+
+
+Started GET "/assets/pdf.gif" for 127.0.0.1 at 2013-11-07 22:40:31 +0700
+Served asset /pdf.gif - 200 OK (13ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-11-07 22:40:31 +0700
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/epm_icon.png" for 127.0.0.1 at 2013-11-07 22:40:31 +0700
+Served asset /epm_icon.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/wallemlogo.gif" for 127.0.0.1 at 2013-11-07 22:40:31 +0700
+Served asset /wallemlogo.gif - 304 Not Modified (0ms)
+
+
+Started GET "/assets/banner.jpg" for 127.0.0.1 at 2013-11-07 22:40:31 +0700
+Served asset /banner.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/sessions" for 127.0.0.1 at 2013-11-07 22:40:40 +0700
+Processing by SessionsController#index as HTML
+Redirected to http://localhost:3047/home/login?tkfrom=http://localhost:3000/sessions
+Completed 302 Found in 16ms (ActiveRecord: 0.0ms)

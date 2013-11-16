@@ -1,0 +1,20 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @status.name %>
+</p>
+
+<p>
+  <b>Icon url:</b>
+  <%= @status.icon_url %>
+</p>
+
+<p>
+  <b>Sort Index:</b>
+  <%= @status.sort_index %>
+</p>
+
+
+<%= link_to 'Edit', edit_status_path(@status) %> |
+<%= link_to 'Back', statuses_path %>

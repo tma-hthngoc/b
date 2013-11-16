@@ -1,0 +1,27 @@
+<% content_for :head do %>
+  <%= javascript_include_tag 'datatable' %>
+<% end %>
+<h1>Departments</h1>
+
+<table id="data-enhanced" class="display">
+ <thead>
+  <tr>
+    <th>Name</th>
+    <th>Actions</th>
+  </tr>
+ </thead>
+<% @departments.each do |department| %>
+  <tr>
+    <td><%= department.name %></td>
+    <td>
+        <%= link_to 'Show', department %>
+        <%= link_to 'Edit', edit_department_path(department) %>
+        <%= link_to 'Destroy', department, method: :delete, data: { confirm: 'Are you sure?' } %>
+    </td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Department', new_department_path %>

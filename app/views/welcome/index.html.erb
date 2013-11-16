@@ -1,0 +1,130 @@
+<div class="front-menu">
+  <p id="notice"><%= notice %></p>
+  <h1>Wallem PMO - Project Pipeline</h1>
+  <% if session[:user_id].nil? %>
+      <!--<p>-->
+      <!--<%= form_tag sessions_path do %>-->
+          <!--<%= label_tag :name %><%= text_field_tag :name, params[:name] %>-->
+          <!--<%= label_tag :password %><%= password_field_tag :password %>-->
+          <!--<%= submit_tag "Log In" %>-->
+          <!--<% end %>-->
+      <!--</p>-->                                                                                                                         -
+
+  <% else %>
+      <%
+         @rd=''
+         if !session[:is_internal].nil?
+           if session[:is_internal].to_s.downcase == 'false'
+             @rd = "?externaltoken=#{session[:external_token].to_s}"
+           end
+         end
+      %>
+      <table class="general-table">
+        <thead>
+        <tr>
+          <th>
+            Reports
+          </th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td>
+            <ul>
+              <li class="jq-jquery">
+                <a href="/pipeline<%= @rd %>">Project Pipeline</a>
+                <em>to see the projects which we are actively reporting on.</em>
+              </li>
+              <li class="jq-jquery">
+                <a href="/archive<%= @rd %>">Project Archive</a>
+                <em>to seee the closed projects which are no longer actively reported.</em>
+              </li>
+              <li class="jq-jquery">
+                <a href="/web_pages<%= @rd %>">Documentation/Links</a>
+                <em>Links to other resources and online documentation for the project status report</em>
+              </li>
+            </ul>
+          </td>
+        </tr>
+        </tbody>
+      </table>
+      <p />
+      <p />
+      <% if power_user? %>
+          <table class="general-table">
+            <thead>
+            <tr>
+              <th>
+                Projects
+              </th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+              <td>
+                <p>Go to a project in Project Maintenance to update the status report</p>
+
+                <ul>
+                  <li class="jq-jquery">
+                    <a href="/projects<%= @rd %>">Project Maintenance</a>
+                    <em>to update status reports and project details.</em>
+                  </li>
+                  <li class="jq-jquery">
+                    <a href="/risk_summaries<%= @rd %>">Risk Summaries</a>
+                  </li>
+                </ul>
+              </td>
+            </tr>
+            </tbody>
+          </table>
+          <p />
+          <p />
+          <table class="general-table">
+            <thead>
+            <tr>
+              <th>
+                Maintenance
+              </th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+              <td>
+                <% if power_user? && !admin_user? %>
+                    <p>Reminder: Your role in the system allows you to view the maintenance screens, however you will not be able to perform create, update and delete operations.</p>
+                <% end %>
+                <ul>
+                  <li class="jq-jquery">
+                    <a href="/project_types<%= @rd %>">Project Types</a>
+                  </li>
+                  <li class="jq-jquery">
+                    <a href="/report_periods<%= @rd %>">Periods</a>
+                  </li>
+                  <li class="jq-jquery">
+                    <a href="/sponsors<%= @rd %>">Sponsors</a>
+                  </li>
+                  <li class="jq-jquery">
+                    <a href="/activities<%= @rd %>">Activities</a>
+                  </li>
+                  <li class="jq-jquery">
+                    <a href="/statuses<%= @rd %>">Statuses</a>
+                  </li>
+                  <li class="jq-jquery">
+                    <a href="/departments<%= @rd %>">Departments</a>
+                  </li>
+                  <li class="jq-jquery">
+                    <a href="/users<%= @rd %>">Users</a>
+                  </li>
+                </ul>
+              </td>
+            </tr>
+            </tbody>
+          </table>
+
+      <% end %>
+  <% end %>
+
+
+
+
+</div>

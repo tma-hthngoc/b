@@ -1,0 +1,10 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Week ending:</b>
+  <%= @report_period.week_ending %>
+</p>
+
+
+<%= link_to 'Edit', edit_report_period_path(@report_period) %> |
+<%= link_to 'Back', report_periods_path %>

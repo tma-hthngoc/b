@@ -1,0 +1,12 @@
+<% content_for :head do %>
+  <%= javascript_include_tag 'ckeditor' %>
+<% end %>
+<h1>New status_report</h1>
+
+<%= render 'form' %>
+
+<% if @project.nil? %>
+<%= link_to 'Back', status_reports_path %>
+<% else %>
+<%= link_to 'Back', status_reports_path(project_id: @project) %>
+<% end %>

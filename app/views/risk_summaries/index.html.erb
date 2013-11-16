@@ -1,0 +1,30 @@
+<% content_for :head do %>
+  <%= javascript_include_tag 'datatable' %>
+<% end %>
+
+<h1>Risk Summary Report Attachments</h1>
+
+<table id="data-enhanced" class="display">
+ <thead>
+  <tr>
+    <th>Riskfile</th>
+    <th>Project</th>
+    <th>Actions</th>
+  </tr>
+ </thead>
+<% @risk_summaries.each do |risk_summary| %>
+  <tr>
+    <td><%= link_to risk_summary.riskfile.original_filename, risk_summary.riskfile.url %></td>
+    <td><%= risk_summary.project || "For All Projects" %></td>
+    <td>
+        <%= link_to 'Show', risk_summary %>
+        <%= link_to 'Edit', edit_risk_summary_path(risk_summary) %>
+        <%= link_to 'Destroy', risk_summary, method: :delete, data: { confirm: 'Are you sure?' } %>
+    </td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Risk summary', new_risk_summary_path %>

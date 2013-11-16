@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ProjectStatus</title>
+  <script>
+    function isPrinting() {
+      return <%= @printing ? 'true' : 'false' %>;
+    }
+  </script>
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+  <%= yield(:head) %>
+</head>
+<body id="interior">
+<div id="header">
+  <%= link_to image_tag('logo.png', alt: "Simple Process, Strong Discipline." ), root_path, {:id => 'siteLogo'} %>
+  <%= link_to image_tag('epm_icon.png', alt: "EPM" ), Project.epm_site, {:id => 'epm-link', :title => "Project Centre"} %>
+  <div id="nav">
+    <%= render 'shared/navigation' %>
+  </div>
+</div>
+
+<div id="site">
+
+  <div id="print-logo">
+    <%= image_tag "wallemlogo.gif" %>
+    <p class="confidential">PRIVATE and CONFIDENTIAL. Not to be used outside of the company</p>
+  </div>
+
+  <div id="content" class="clearfix">
+    <div id="primaryContent">
+      <%= yield %>
+    </div>
+  </div>
+</div>
+
+<%#= image_tag "footer_logo.png" %>
+
+</body>
+</html>
